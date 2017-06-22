@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: a6c9fed9d0b3061489348efb53d47171
+timeCreated: 1470782243
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Detail 007
+    100002: Detail 01
+    100004: Detail 02
+    100006: Detail 02 1
+    100008: Detail 03
+    100010: Detail 03-2
+    100012: Detail 05
+    100014: //RootNode
+    100016: Group051
+    100018: Group061
+    100020: Layer:106C1 [58]
+    100022: Layer:106C3 [57]
+    100024: Layer:212B5 [269]
+    100026: Layer:213B1 [270]
+    100028: Layer:213B2 [271]
+    100030: Layer:4M4 [220]
+    100032: Layer:4M4 [221]
+    100034: Layer:5A2 [453]
+    100036: Layer:5A2 [455]
+    100038: Layer:5A2 [457]
+    100040: Layer:5A2 [459]
+    100042: Layer:5A3 [454]
+    100044: Layer:5A3 [456]
+    100046: Layer:5A3 [458]
+    100048: Layer:5A3 [460]
+    100050: Layer:5P1 [442]
+    100052: Layer:5P1 [443]
+    100054: Layer:EP1 [182]
+    100056: Layer:EP1 [79]
+    100058: Line1432
+    100060: Object300
+    100062: Object304
+    100064: Object308
+    100066: Object309
+    100068: object_12
+    100070: object_13
+    100072: object_212
+    100074: object_4796
+    100076: object_4797
+    100078: object_4798
+    100080: object_4799
+    100082: object_4800
+    100084: object_4801
+    100086: object_4802
+    100088: object_4803
+    100090: object_4804
+    100092: object_4805
+    100094: object_4806
+    100096: object_4807
+    100098: object_4808
+    100100: object_4809
+    100102: object_4810
+    100104: object_606
+    100106: object_607
+    100108: object_608
+    100110: object_609
+    100112: object_610
+    100114: object_611
+    100116: object_612
+    100118: object_613
+    100120: object_614
+    100122: object_615
+    100124: object_616
+    100126: object_617
+    100128: object_625
+    100130: object_626
+    100132: object_627
+    100134: object_628
+    100136: object_629
+    100138: object_630
+    100140: object_631
+    100142: object_632
+    100144: object_633
+    100146: object_720
+    100148: object_726
+    100150: object_732
+    100152: object_752
+    100154: object_760
+    100156: object_763
+    100158: object_783
+    100160: object_784
+    100162: object_785
+    100164: object_786
+    100166: object_787
+    100168: object_788
+    100170: object_789
+    100172: object_790
+    100174: object_791
+    100176: object_792
+    100178: object_793
+    100180: object_794
+    100182: object_795
+    100184: object_796
+    100186: object_797
+    100188: object_798
+    100190: object_799
+    100192: object_800
+    100194: object_801
+    100196: object_802
+    100198: object_803
+    100200: object_804
+    100202: object_805
+    100204: object_806
+    100206: object_807
+    100208: object_808
+    100210: object_809
+    100212: object_810
+    100214: object_811
+    100216: object_812
+    100218: object_813
+    100220: object_814
+    100222: object_815
+    100224: object_816
+    100226: object_817
+    100228: object_818
+    100230: object_819
+    100232: object_820
+    100234: object_821
+    100236: object_822
+    100238: object_823
+    100240: object_824
+    100242: object_825
+    100244: object_826
+    100246: object_827
+    100248: object_828
+    100250: object_829
+    100252: object_830
+    100254: object_831
+    100256: object_832
+    100258: object_833
+    100260: object_834
+    100262: object_835
+    100264: object_836
+    100266: object_837
+    100268: object_838
+    100270: object_839
+    100272: object_840
+    100274: object_841
+    100276: object_842
+    100278: object_843
+    100280: object_844
+    100282: object_845
+    100284: object_846
+    100286: object_847
+    100288: object_848
+    100290: object_849
+    100292: object_850
+    100294: object_851
+    100296: object_852
+    100298: object_853
+    100300: object_854
+    100302: object_855
+    100304: object_856
+    100306: object_857
+    100308: object_858
+    100310: object_859
+    100312: object_860
+    100314: object_861
+    100316: object_862
+    100318: object_863
+    100320: object_864
+    100322: object_865
+    100324: object_866
+    100326: object_867
+    100328: object_868
+    100330: object_869
+    100332: object_870
+    100334: object_871
+    100336: object_872
+    100338: object_873
+    100340: object_874
+    100342: object_875
+    100344: object_876
+    100346: object_877
+    100348: object_878
+    100350: object_879
+    100352: object_880
+    100354: object_881
+    100356: object_882
+    100358: object_883
+    100360: object_884
+    100362: object_885
+    100364: object_886
+    100366: Plane142
+    100368: Plane143
+    100370: Plane144
+    100372: Plane145
+    100374: Plane146
+    100376: Plane147
+    100378: Plane148
+    100380: Plane149
+    100382: 'Structure '
+    100384: Windows
+    400000: Detail 007
+    400002: Detail 01
+    400004: Detail 02
+    400006: Detail 02 1
+    400008: Detail 03
+    400010: Detail 03-2
+    400012: Detail 05
+    400014: //RootNode
+    400016: Group051
+    400018: Group061
+    400020: Layer:106C1 [58]
+    400022: Layer:106C3 [57]
+    400024: Layer:212B5 [269]
+    400026: Layer:213B1 [270]
+    400028: Layer:213B2 [271]
+    400030: Layer:4M4 [220]
+    400032: Layer:4M4 [221]
+    400034: Layer:5A2 [453]
+    400036: Layer:5A2 [455]
+    400038: Layer:5A2 [457]
+    400040: Layer:5A2 [459]
+    400042: Layer:5A3 [454]
+    400044: Layer:5A3 [456]
+    400046: Layer:5A3 [458]
+    400048: Layer:5A3 [460]
+    400050: Layer:5P1 [442]
+    400052: Layer:5P1 [443]
+    400054: Layer:EP1 [182]
+    400056: Layer:EP1 [79]
+    400058: Line1432
+    400060: Object300
+    400062: Object304
+    400064: Object308
+    400066: Object309
+    400068: object_12
+    400070: object_13
+    400072: object_212
+    400074: object_4796
+    400076: object_4797
+    400078: object_4798
+    400080: object_4799
+    400082: object_4800
+    400084: object_4801
+    400086: object_4802
+    400088: object_4803
+    400090: object_4804
+    400092: object_4805
+    400094: object_4806
+    400096: object_4807
+    400098: object_4808
+    400100: object_4809
+    400102: object_4810
+    400104: object_606
+    400106: object_607
+    400108: object_608
+    400110: object_609
+    400112: object_610
+    400114: object_611
+    400116: object_612
+    400118: object_613
+    400120: object_614
+    400122: object_615
+    400124: object_616
+    400126: object_617
+    400128: object_625
+    400130: object_626
+    400132: object_627
+    400134: object_628
+    400136: object_629
+    400138: object_630
+    400140: object_631
+    400142: object_632
+    400144: object_633
+    400146: object_720
+    400148: object_726
+    400150: object_732
+    400152: object_752
+    400154: object_760
+    400156: object_763
+    400158: object_783
+    400160: object_784
+    400162: object_785
+    400164: object_786
+    400166: object_787
+    400168: object_788
+    400170: object_789
+    400172: object_790
+    400174: object_791
+    400176: object_792
+    400178: object_793
+    400180: object_794
+    400182: object_795
+    400184: object_796
+    400186: object_797
+    400188: object_798
+    400190: object_799
+    400192: object_800
+    400194: object_801
+    400196: object_802
+    400198: object_803
+    400200: object_804
+    400202: object_805
+    400204: object_806
+    400206: object_807
+    400208: object_808
+    400210: object_809
+    400212: object_810
+    400214: object_811
+    400216: object_812
+    400218: object_813
+    400220: object_814
+    400222: object_815
+    400224: object_816
+    400226: object_817
+    400228: object_818
+    400230: object_819
+    400232: object_820
+    400234: object_821
+    400236: object_822
+    400238: object_823
+    400240: object_824
+    400242: object_825
+    400244: object_826
+    400246: object_827
+    400248: object_828
+    400250: object_829
+    400252: object_830
+    400254: object_831
+    400256: object_832
+    400258: object_833
+    400260: object_834
+    400262: object_835
+    400264: object_836
+    400266: object_837
+    400268: object_838
+    400270: object_839
+    400272: object_840
+    400274: object_841
+    400276: object_842
+    400278: object_843
+    400280: object_844
+    400282: object_845
+    400284: object_846
+    400286: object_847
+    400288: object_848
+    400290: object_849
+    400292: object_850
+    400294: object_851
+    400296: object_852
+    400298: object_853
+    400300: object_854
+    400302: object_855
+    400304: object_856
+    400306: object_857
+    400308: object_858
+    400310: object_859
+    400312: object_860
+    400314: object_861
+    400316: object_862
+    400318: object_863
+    400320: object_864
+    400322: object_865
+    400324: object_866
+    400326: object_867
+    400328: object_868
+    400330: object_869
+    400332: object_870
+    400334: object_871
+    400336: object_872
+    400338: object_873
+    400340: object_874
+    400342: object_875
+    400344: object_876
+    400346: object_877
+    400348: object_878
+    400350: object_879
+    400352: object_880
+    400354: object_881
+    400356: object_882
+    400358: object_883
+    400360: object_884
+    400362: object_885
+    400364: object_886
+    400366: Plane142
+    400368: Plane143
+    400370: Plane144
+    400372: Plane145
+    400374: Plane146
+    400376: Plane147
+    400378: Plane148
+    400380: Plane149
+    400382: 'Structure '
+    400384: Windows
+    2300000: Layer:106C1 [58]
+    2300002: Layer:106C3 [57]
+    2300004: Layer:212B5 [269]
+    2300006: Layer:213B1 [270]
+    2300008: Layer:213B2 [271]
+    2300010: Layer:4M4 [220]
+    2300012: Layer:4M4 [221]
+    2300014: Layer:5A2 [453]
+    2300016: Layer:5A2 [455]
+    2300018: Layer:5A2 [457]
+    2300020: Layer:5A2 [459]
+    2300022: Layer:5A3 [454]
+    2300024: Layer:5A3 [456]
+    2300026: Layer:5A3 [458]
+    2300028: Layer:5A3 [460]
+    2300030: Layer:5P1 [442]
+    2300032: Layer:5P1 [443]
+    2300034: Layer:EP1 [182]
+    2300036: Layer:EP1 [79]
+    2300038: Line1432
+    2300040: Object300
+    2300042: Object304
+    2300044: Object308
+    2300046: Object309
+    2300048: object_12
+    2300050: object_13
+    2300052: object_212
+    2300054: object_4796
+    2300056: object_4797
+    2300058: object_4798
+    2300060: object_4799
+    2300062: object_4800
+    2300064: object_4801
+    2300066: object_4802
+    2300068: object_4803
+    2300070: object_4804
+    2300072: object_4805
+    2300074: object_4806
+    2300076: object_4807
+    2300078: object_4808
+    2300080: object_4809
+    2300082: object_4810
+    2300084: object_606
+    2300086: object_607
+    2300088: object_608
+    2300090: object_609
+    2300092: object_610
+    2300094: object_611
+    2300096: object_612
+    2300098: object_613
+    2300100: object_614
+    2300102: object_615
+    2300104: object_616
+    2300106: object_617
+    2300108: object_625
+    2300110: object_626
+    2300112: object_627
+    2300114: object_628
+    2300116: object_629
+    2300118: object_630
+    2300120: object_631
+    2300122: object_632
+    2300124: object_633
+    2300126: object_720
+    2300128: object_726
+    2300130: object_732
+    2300132: object_752
+    2300134: object_760
+    2300136: object_763
+    2300138: object_783
+    2300140: object_784
+    2300142: object_785
+    2300144: object_786
+    2300146: object_787
+    2300148: object_788
+    2300150: object_789
+    2300152: object_790
+    2300154: object_791
+    2300156: object_792
+    2300158: object_793
+    2300160: object_794
+    2300162: object_795
+    2300164: object_796
+    2300166: object_797
+    2300168: object_798
+    2300170: object_799
+    2300172: object_800
+    2300174: object_801
+    2300176: object_802
+    2300178: object_803
+    2300180: object_804
+    2300182: object_805
+    2300184: object_806
+    2300186: object_807
+    2300188: object_808
+    2300190: object_809
+    2300192: object_810
+    2300194: object_811
+    2300196: object_812
+    2300198: object_813
+    2300200: object_814
+    2300202: object_815
+    2300204: object_816
+    2300206: object_817
+    2300208: object_818
+    2300210: object_819
+    2300212: object_820
+    2300214: object_821
+    2300216: object_822
+    2300218: object_823
+    2300220: object_824
+    2300222: object_825
+    2300224: object_826
+    2300226: object_827
+    2300228: object_828
+    2300230: object_829
+    2300232: object_830
+    2300234: object_831
+    2300236: object_832
+    2300238: object_833
+    2300240: object_834
+    2300242: object_835
+    2300244: object_836
+    2300246: object_837
+    2300248: object_838
+    2300250: object_839
+    2300252: object_840
+    2300254: object_841
+    2300256: object_842
+    2300258: object_843
+    2300260: object_844
+    2300262: object_845
+    2300264: object_846
+    2300266: object_847
+    2300268: object_848
+    2300270: object_849
+    2300272: object_850
+    2300274: object_851
+    2300276: object_852
+    2300278: object_853
+    2300280: object_854
+    2300282: object_855
+    2300284: object_856
+    2300286: object_857
+    2300288: object_858
+    2300290: object_859
+    2300292: object_860
+    2300294: object_861
+    2300296: object_862
+    2300298: object_863
+    2300300: object_864
+    2300302: object_865
+    2300304: object_866
+    2300306: object_867
+    2300308: object_868
+    2300310: object_869
+    2300312: object_870
+    2300314: object_871
+    2300316: object_872
+    2300318: object_873
+    2300320: object_874
+    2300322: object_875
+    2300324: object_876
+    2300326: object_877
+    2300328: object_878
+    2300330: object_879
+    2300332: object_880
+    2300334: object_881
+    2300336: object_882
+    2300338: object_883
+    2300340: object_884
+    2300342: object_885
+    2300344: object_886
+    2300346: Plane142
+    2300348: Plane143
+    2300350: Plane144
+    2300352: Plane145
+    2300354: Plane146
+    2300356: Plane147
+    2300358: Plane148
+    2300360: Plane149
+    3300000: Layer:106C1 [58]
+    3300002: Layer:106C3 [57]
+    3300004: Layer:212B5 [269]
+    3300006: Layer:213B1 [270]
+    3300008: Layer:213B2 [271]
+    3300010: Layer:4M4 [220]
+    3300012: Layer:4M4 [221]
+    3300014: Layer:5A2 [453]
+    3300016: Layer:5A2 [455]
+    3300018: Layer:5A2 [457]
+    3300020: Layer:5A2 [459]
+    3300022: Layer:5A3 [454]
+    3300024: Layer:5A3 [456]
+    3300026: Layer:5A3 [458]
+    3300028: Layer:5A3 [460]
+    3300030: Layer:5P1 [442]
+    3300032: Layer:5P1 [443]
+    3300034: Layer:EP1 [182]
+    3300036: Layer:EP1 [79]
+    3300038: Line1432
+    3300040: Object300
+    3300042: Object304
+    3300044: Object308
+    3300046: Object309
+    3300048: object_12
+    3300050: object_13
+    3300052: object_212
+    3300054: object_4796
+    3300056: object_4797
+    3300058: object_4798
+    3300060: object_4799
+    3300062: object_4800
+    3300064: object_4801
+    3300066: object_4802
+    3300068: object_4803
+    3300070: object_4804
+    3300072: object_4805
+    3300074: object_4806
+    3300076: object_4807
+    3300078: object_4808
+    3300080: object_4809
+    3300082: object_4810
+    3300084: object_606
+    3300086: object_607
+    3300088: object_608
+    3300090: object_609
+    3300092: object_610
+    3300094: object_611
+    3300096: object_612
+    3300098: object_613
+    3300100: object_614
+    3300102: object_615
+    3300104: object_616
+    3300106: object_617
+    3300108: object_625
+    3300110: object_626
+    3300112: object_627
+    3300114: object_628
+    3300116: object_629
+    3300118: object_630
+    3300120: object_631
+    3300122: object_632
+    3300124: object_633
+    3300126: object_720
+    3300128: object_726
+    3300130: object_732
+    3300132: object_752
+    3300134: object_760
+    3300136: object_763
+    3300138: object_783
+    3300140: object_784
+    3300142: object_785
+    3300144: object_786
+    3300146: object_787
+    3300148: object_788
+    3300150: object_789
+    3300152: object_790
+    3300154: object_791
+    3300156: object_792
+    3300158: object_793
+    3300160: object_794
+    3300162: object_795
+    3300164: object_796
+    3300166: object_797
+    3300168: object_798
+    3300170: object_799
+    3300172: object_800
+    3300174: object_801
+    3300176: object_802
+    3300178: object_803
+    3300180: object_804
+    3300182: object_805
+    3300184: object_806
+    3300186: object_807
+    3300188: object_808
+    3300190: object_809
+    3300192: object_810
+    3300194: object_811
+    3300196: object_812
+    3300198: object_813
+    3300200: object_814
+    3300202: object_815
+    3300204: object_816
+    3300206: object_817
+    3300208: object_818
+    3300210: object_819
+    3300212: object_820
+    3300214: object_821
+    3300216: object_822
+    3300218: object_823
+    3300220: object_824
+    3300222: object_825
+    3300224: object_826
+    3300226: object_827
+    3300228: object_828
+    3300230: object_829
+    3300232: object_830
+    3300234: object_831
+    3300236: object_832
+    3300238: object_833
+    3300240: object_834
+    3300242: object_835
+    3300244: object_836
+    3300246: object_837
+    3300248: object_838
+    3300250: object_839
+    3300252: object_840
+    3300254: object_841
+    3300256: object_842
+    3300258: object_843
+    3300260: object_844
+    3300262: object_845
+    3300264: object_846
+    3300266: object_847
+    3300268: object_848
+    3300270: object_849
+    3300272: object_850
+    3300274: object_851
+    3300276: object_852
+    3300278: object_853
+    3300280: object_854
+    3300282: object_855
+    3300284: object_856
+    3300286: object_857
+    3300288: object_858
+    3300290: object_859
+    3300292: object_860
+    3300294: object_861
+    3300296: object_862
+    3300298: object_863
+    3300300: object_864
+    3300302: object_865
+    3300304: object_866
+    3300306: object_867
+    3300308: object_868
+    3300310: object_869
+    3300312: object_870
+    3300314: object_871
+    3300316: object_872
+    3300318: object_873
+    3300320: object_874
+    3300322: object_875
+    3300324: object_876
+    3300326: object_877
+    3300328: object_878
+    3300330: object_879
+    3300332: object_880
+    3300334: object_881
+    3300336: object_882
+    3300338: object_883
+    3300340: object_884
+    3300342: object_885
+    3300344: object_886
+    3300346: Plane142
+    3300348: Plane143
+    3300350: Plane144
+    3300352: Plane145
+    3300354: Plane146
+    3300356: Plane147
+    3300358: Plane148
+    3300360: Plane149
+    4300000: Object308
+    4300002: object_12
+    4300004: object_212
+    4300006: object_822
+    4300008: Object309
+    4300010: object_876
+    4300012: object_885
+    4300014: object_867
+    4300016: object_868
+    4300018: object_884
+    4300020: object_883
+    4300022: object_882
+    4300024: object_881
+    4300026: object_873
+    4300028: object_874
+    4300030: object_875
+    4300032: object_886
+    4300034: object_877
+    4300036: object_878
+    4300038: object_879
+    4300040: object_880
+    4300042: object_871
+    4300044: object_870
+    4300046: object_869
+    4300048: object_866
+    4300050: object_872
+    4300052: object_793
+    4300054: object_783
+    4300056: object_784
+    4300058: object_785
+    4300060: object_786
+    4300062: object_802
+    4300064: object_801
+    4300066: object_800
+    4300068: object_790
+    4300070: object_791
+    4300072: object_792
+    4300074: object_803
+    4300076: object_794
+    4300078: object_795
+    4300080: object_796
+    4300082: object_797
+    4300084: object_798
+    4300086: object_799
+    4300088: object_788
+    4300090: object_787
+    4300092: object_789
+    4300094: object_851
+    4300096: object_860
+    4300098: object_859
+    4300100: object_861
+    4300102: object_864
+    4300104: object_856
+    4300106: object_863
+    4300108: object_862
+    4300110: object_858
+    4300112: object_852
+    4300114: object_853
+    4300116: object_854
+    4300118: object_855
+    4300120: object_857
+    4300122: object_865
+    4300124: object_4796
+    4300126: object_4797
+    4300128: object_4798
+    4300130: object_4799
+    4300132: object_4800
+    4300134: object_4801
+    4300136: object_4802
+    4300138: object_4803
+    4300140: object_4804
+    4300142: object_4805
+    4300144: object_4806
+    4300146: object_4807
+    4300148: object_4808
+    4300150: object_4809
+    4300152: object_4810
+    4300154: object_826
+    4300156: object_833
+    4300158: object_832
+    4300160: object_831
+    4300162: object_830
+    4300164: object_834
+    4300166: object_823
+    4300168: object_824
+    4300170: object_825
+    4300172: object_835
+    4300174: object_827
+    4300176: object_828
+    4300178: object_829
+    4300180: object_850
+    4300182: object_843
+    4300184: object_840
+    4300186: object_848
+    4300188: object_847
+    4300190: object_846
+    4300192: object_845
+    4300194: object_844
+    4300196: object_842
+    4300198: object_836
+    4300200: object_838
+    4300202: object_839
+    4300204: object_849
+    4300206: object_841
+    4300208: object_837
+    4300210: object_820
+    4300212: object_819
+    4300214: object_818
+    4300216: object_817
+    4300218: object_816
+    4300220: object_815
+    4300222: object_804
+    4300224: object_805
+    4300226: object_806
+    4300228: object_807
+    4300230: object_808
+    4300232: object_821
+    4300234: object_814
+    4300236: object_811
+    4300238: object_812
+    4300240: object_813
+    4300242: object_809
+    4300244: object_810
+    4300246: object_13
+    4300248: Object304
+    4300250: Plane142
+    4300252: object_720
+    4300254: Plane146
+    4300256: object_760
+    4300258: Plane144
+    4300260: object_763
+    4300262: Plane145
+    4300264: object_752
+    4300266: Plane149
+    4300268: Object300
+    4300270: Plane143
+    4300272: Plane147
+    4300274: object_726
+    4300276: Plane148
+    4300278: object_732
+    4300280: object_617
+    4300282: object_615
+    4300284: object_614
+    4300286: object_626
+    4300288: object_625
+    4300290: object_616
+    4300292: object_627
+    4300294: object_609
+    4300296: object_608
+    4300298: object_633
+    4300300: object_632
+    4300302: object_631
+    4300304: object_613
+    4300306: object_612
+    4300308: object_630
+    4300310: object_628
+    4300312: object_629
+    4300314: object_610
+    4300316: object_611
+    4300318: object_606
+    4300320: object_607
+    4300322: Line1432
+    4300324: Layer:EP1 [79]
+    4300326: Layer:213B1 [270]
+    4300328: Layer:106C1 [58]
+    4300330: Layer:5A3 [460]
+    4300332: Layer:5A2 [459]
+    4300334: Layer:5A3 [456]
+    4300336: Layer:5A2 [455]
+    4300338: Layer:212B5 [269]
+    4300340: Layer:4M4 [220]
+    4300342: Layer:4M4 [221]
+    4300344: Layer:106C3 [57]
+    4300346: Layer:5A2 [457]
+    4300348: Layer:5A3 [458]
+    4300350: Layer:213B2 [271]
+    4300352: Layer:5A3 [454]
+    4300354: Layer:5A2 [453]
+    4300356: Layer:EP1 [182]
+    4300358: Layer:5P1 [442]
+    4300360: Layer:5P1 [443]
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

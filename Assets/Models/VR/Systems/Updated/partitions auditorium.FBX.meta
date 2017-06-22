@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 56324af08a1fee24a8cbb7e82fab952d
+timeCreated: 1470858400
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Block:STD_JAM_Nut_H_P3d
+    100002: Box150
+    100004: Box154
+    100006: 'Doors <Double-Flush : D120> Frame/Mullion003'
+    100008: 'Doors <Double-Flush : D120> Panel003'
+    100010: 'Doors <Double-Flush : D120>003'
+    100012: 'Doors <Double-Flush : D130> Frame/Mullion004'
+    100014: 'Doors <Double-Flush : D130> Panel004'
+    100016: 'Doors <Double-Flush : D130> Panel005'
+    100018: 'Doors <Double-Flush : D130M1> Frame/Mullion002'
+    100020: 'Doors <Double-Flush : D130M1> Panel002'
+    100022: 'Doors <Double-Flush : D130M1> Panel003'
+    100024: 'Doors <Single-Flush : D120> Frame/Mullion002'
+    100026: 'Doors <Single-Flush : D120> Panel002'
+    100028: 'Doors <Single-Flush : D122> Frame/Mullion003'
+    100030: 'Doors <Single-Flush : D122> Frame/Mullion004'
+    100032: 'Doors <Single-Flush : D122> Panel003'
+    100034: 'Doors <Single-Flush : D122> Panel004'
+    100036: 'Doors <Single-Flush : D122>004'
+    100038: 'Doors <Single-Flush : D124> Frame/Mullion003'
+    100040: 'Doors <Single-Flush : D124> Frame/Mullion004'
+    100042: 'Doors <Single-Flush : D124> Panel003'
+    100044: 'Doors <Single-Flush : D124> Panel004'
+    100046: 'Doors <Single-Flush : D126> Frame/Mullion002'
+    100048: 'Doors <Single-Flush : D126> Panel002'
+    100050: 'Doors <Single-Flush : D130T1> Frame/Mullion002'
+    100052: 'Doors <Single-Flush : D130T1> Panel002'
+    100054: //RootNode
+    100056: Plane161
+    100058: Plane163
+    100060: Plane164
+    100062: Plane165
+    100064: Plane166
+    100066: Plane168
+    100068: Plane169
+    100070: Plane170
+    100072: Plane171
+    100074: Plane172
+    100076: Plane173
+    100078: Plane174
+    100080: Plane175
+    100082: Plane176
+    100084: Plane177
+    100086: Plane178
+    100088: Plane179
+    100090: Plane180
+    100092: Plane181
+    100094: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>237'
+    100096: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>238'
+    100098: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>239'
+    100100: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>240'
+    100102: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>241'
+    100104: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>242'
+    100106: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>243'
+    100108: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>244'
+    100110: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>249'
+    100112: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>250'
+    100114: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>251'
+    100116: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>252'
+    100118: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>263'
+    100120: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>264'
+    100122: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>283'
+    100124: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>284'
+    100126: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>285'
+    100128: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>286'
+    100130: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>287'
+    100132: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>288'
+    100134: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>289'
+    100136: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>290'
+    100138: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>291'
+    100140: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>292'
+    100142: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>293'
+    100144: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>294'
+    100146: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>295'
+    100148: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>296'
+    100150: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>297'
+    100152: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>298'
+    100154: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>299'
+    100156: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>300'
+    100158: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>015'
+    100160: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>016'
+    100162: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>019'
+    100164: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>020'
+    400000: Block:STD_JAM_Nut_H_P3d
+    400002: Box150
+    400004: Box154
+    400006: 'Doors <Double-Flush : D120> Frame/Mullion003'
+    400008: 'Doors <Double-Flush : D120> Panel003'
+    400010: 'Doors <Double-Flush : D120>003'
+    400012: 'Doors <Double-Flush : D130> Frame/Mullion004'
+    400014: 'Doors <Double-Flush : D130> Panel004'
+    400016: 'Doors <Double-Flush : D130> Panel005'
+    400018: 'Doors <Double-Flush : D130M1> Frame/Mullion002'
+    400020: 'Doors <Double-Flush : D130M1> Panel002'
+    400022: 'Doors <Double-Flush : D130M1> Panel003'
+    400024: 'Doors <Single-Flush : D120> Frame/Mullion002'
+    400026: 'Doors <Single-Flush : D120> Panel002'
+    400028: 'Doors <Single-Flush : D122> Frame/Mullion003'
+    400030: 'Doors <Single-Flush : D122> Frame/Mullion004'
+    400032: 'Doors <Single-Flush : D122> Panel003'
+    400034: 'Doors <Single-Flush : D122> Panel004'
+    400036: 'Doors <Single-Flush : D122>004'
+    400038: 'Doors <Single-Flush : D124> Frame/Mullion003'
+    400040: 'Doors <Single-Flush : D124> Frame/Mullion004'
+    400042: 'Doors <Single-Flush : D124> Panel003'
+    400044: 'Doors <Single-Flush : D124> Panel004'
+    400046: 'Doors <Single-Flush : D126> Frame/Mullion002'
+    400048: 'Doors <Single-Flush : D126> Panel002'
+    400050: 'Doors <Single-Flush : D130T1> Frame/Mullion002'
+    400052: 'Doors <Single-Flush : D130T1> Panel002'
+    400054: //RootNode
+    400056: Plane161
+    400058: Plane163
+    400060: Plane164
+    400062: Plane165
+    400064: Plane166
+    400066: Plane168
+    400068: Plane169
+    400070: Plane170
+    400072: Plane171
+    400074: Plane172
+    400076: Plane173
+    400078: Plane174
+    400080: Plane175
+    400082: Plane176
+    400084: Plane177
+    400086: Plane178
+    400088: Plane179
+    400090: Plane180
+    400092: Plane181
+    400094: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>237'
+    400096: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>238'
+    400098: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>239'
+    400100: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>240'
+    400102: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>241'
+    400104: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>242'
+    400106: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>243'
+    400108: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>244'
+    400110: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>249'
+    400112: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>250'
+    400114: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>251'
+    400116: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>252'
+    400118: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>263'
+    400120: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>264'
+    400122: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>283'
+    400124: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>284'
+    400126: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>285'
+    400128: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>286'
+    400130: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>287'
+    400132: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>288'
+    400134: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>289'
+    400136: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>290'
+    400138: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>291'
+    400140: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>292'
+    400142: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>293'
+    400144: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>294'
+    400146: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>295'
+    400148: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>296'
+    400150: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>297'
+    400152: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>298'
+    400154: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>299'
+    400156: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>300'
+    400158: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>015'
+    400160: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>016'
+    400162: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>019'
+    400164: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>020'
+    2300000: Box150
+    2300002: Box154
+    2300004: 'Doors <Double-Flush : D120> Frame/Mullion003'
+    2300006: 'Doors <Double-Flush : D120> Panel003'
+    2300008: 'Doors <Double-Flush : D130> Frame/Mullion004'
+    2300010: 'Doors <Double-Flush : D130> Panel004'
+    2300012: 'Doors <Double-Flush : D130> Panel005'
+    2300014: 'Doors <Double-Flush : D130M1> Frame/Mullion002'
+    2300016: 'Doors <Double-Flush : D130M1> Panel002'
+    2300018: 'Doors <Double-Flush : D130M1> Panel003'
+    2300020: 'Doors <Single-Flush : D120> Frame/Mullion002'
+    2300022: 'Doors <Single-Flush : D120> Panel002'
+    2300024: 'Doors <Single-Flush : D122> Frame/Mullion003'
+    2300026: 'Doors <Single-Flush : D122> Frame/Mullion004'
+    2300028: 'Doors <Single-Flush : D122> Panel003'
+    2300030: 'Doors <Single-Flush : D122> Panel004'
+    2300032: 'Doors <Single-Flush : D124> Frame/Mullion003'
+    2300034: 'Doors <Single-Flush : D124> Frame/Mullion004'
+    2300036: 'Doors <Single-Flush : D124> Panel003'
+    2300038: 'Doors <Single-Flush : D124> Panel004'
+    2300040: 'Doors <Single-Flush : D126> Frame/Mullion002'
+    2300042: 'Doors <Single-Flush : D126> Panel002'
+    2300044: 'Doors <Single-Flush : D130T1> Frame/Mullion002'
+    2300046: 'Doors <Single-Flush : D130T1> Panel002'
+    2300048: Plane161
+    2300050: Plane163
+    2300052: Plane164
+    2300054: Plane165
+    2300056: Plane166
+    2300058: Plane168
+    2300060: Plane169
+    2300062: Plane170
+    2300064: Plane171
+    2300066: Plane172
+    2300068: Plane173
+    2300070: Plane174
+    2300072: Plane175
+    2300074: Plane176
+    2300076: Plane177
+    2300078: Plane178
+    2300080: Plane179
+    2300082: Plane180
+    2300084: Plane181
+    2300086: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>238'
+    2300088: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>240'
+    2300090: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>242'
+    2300092: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>244'
+    2300094: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>250'
+    2300096: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>252'
+    2300098: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>264'
+    2300100: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>284'
+    2300102: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>286'
+    2300104: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>288'
+    2300106: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>290'
+    2300108: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>292'
+    2300110: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>294'
+    2300112: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>296'
+    2300114: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>298'
+    2300116: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>300'
+    2300118: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>016'
+    2300120: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>020'
+    3300000: Box150
+    3300002: Box154
+    3300004: 'Doors <Double-Flush : D120> Frame/Mullion003'
+    3300006: 'Doors <Double-Flush : D120> Panel003'
+    3300008: 'Doors <Double-Flush : D130> Frame/Mullion004'
+    3300010: 'Doors <Double-Flush : D130> Panel004'
+    3300012: 'Doors <Double-Flush : D130> Panel005'
+    3300014: 'Doors <Double-Flush : D130M1> Frame/Mullion002'
+    3300016: 'Doors <Double-Flush : D130M1> Panel002'
+    3300018: 'Doors <Double-Flush : D130M1> Panel003'
+    3300020: 'Doors <Single-Flush : D120> Frame/Mullion002'
+    3300022: 'Doors <Single-Flush : D120> Panel002'
+    3300024: 'Doors <Single-Flush : D122> Frame/Mullion003'
+    3300026: 'Doors <Single-Flush : D122> Frame/Mullion004'
+    3300028: 'Doors <Single-Flush : D122> Panel003'
+    3300030: 'Doors <Single-Flush : D122> Panel004'
+    3300032: 'Doors <Single-Flush : D124> Frame/Mullion003'
+    3300034: 'Doors <Single-Flush : D124> Frame/Mullion004'
+    3300036: 'Doors <Single-Flush : D124> Panel003'
+    3300038: 'Doors <Single-Flush : D124> Panel004'
+    3300040: 'Doors <Single-Flush : D126> Frame/Mullion002'
+    3300042: 'Doors <Single-Flush : D126> Panel002'
+    3300044: 'Doors <Single-Flush : D130T1> Frame/Mullion002'
+    3300046: 'Doors <Single-Flush : D130T1> Panel002'
+    3300048: Plane161
+    3300050: Plane163
+    3300052: Plane164
+    3300054: Plane165
+    3300056: Plane166
+    3300058: Plane168
+    3300060: Plane169
+    3300062: Plane170
+    3300064: Plane171
+    3300066: Plane172
+    3300068: Plane173
+    3300070: Plane174
+    3300072: Plane175
+    3300074: Plane176
+    3300076: Plane177
+    3300078: Plane178
+    3300080: Plane179
+    3300082: Plane180
+    3300084: Plane181
+    3300086: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>238'
+    3300088: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>240'
+    3300090: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>242'
+    3300092: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>244'
+    3300094: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>250'
+    3300096: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>252'
+    3300098: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>264'
+    3300100: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>284'
+    3300102: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>286'
+    3300104: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>288'
+    3300106: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>290'
+    3300108: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>292'
+    3300110: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>294'
+    3300112: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>296'
+    3300114: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>298'
+    3300116: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>300'
+    3300118: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>016'
+    3300120: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>020'
+    4300000: 'Doors <Double-Flush : D120> Frame/Mullion003'
+    4300002: 'Doors <Double-Flush : D120> Panel003'
+    4300004: 'Doors <Double-Flush : D130> Frame/Mullion004'
+    4300006: 'Doors <Double-Flush : D130> Panel004'
+    4300008: 'Doors <Double-Flush : D130> Panel005'
+    4300010: 'Doors <Single-Flush : D120> Frame/Mullion002'
+    4300012: 'Doors <Single-Flush : D120> Panel002'
+    4300014: 'Doors <Single-Flush : D122> Frame/Mullion004'
+    4300016: 'Doors <Single-Flush : D122> Panel004'
+    4300018: 'Doors <Single-Flush : D122> Frame/Mullion003'
+    4300020: 'Doors <Single-Flush : D122> Panel003'
+    4300022: 'Doors <Single-Flush : D130T1> Frame/Mullion002'
+    4300024: 'Doors <Single-Flush : D130T1> Panel002'
+    4300026: 'Doors <Double-Flush : D130M1> Frame/Mullion002'
+    4300028: 'Doors <Double-Flush : D130M1> Panel002'
+    4300030: 'Doors <Double-Flush : D130M1> Panel003'
+    4300032: 'Doors <Single-Flush : D124> Frame/Mullion003'
+    4300034: 'Doors <Single-Flush : D124> Panel003'
+    4300036: 'Doors <Single-Flush : D124> Frame/Mullion004'
+    4300038: 'Doors <Single-Flush : D124> Panel004'
+    4300040: Box150
+    4300042: 'Doors <Single-Flush : D126> Frame/Mullion002'
+    4300044: 'Doors <Single-Flush : D126> Panel002'
+    4300046: Box154
+    4300048: Plane179
+    4300050: Plane178
+    4300052: Plane163
+    4300054: Plane164
+    4300056: Plane165
+    4300058: Plane174
+    4300060: Plane173
+    4300062: Plane172
+    4300064: Plane166
+    4300066: Plane170
+    4300068: Plane169
+    4300070: Plane168
+    4300072: Plane177
+    4300074: Plane175
+    4300076: Plane176
+    4300078: Plane171
+    4300080: Plane181
+    4300082: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>240'
+    4300084: Plane180
+    4300086: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>244'
+    4300088: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>250'
+    4300090: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>252'
+    4300092: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>264'
+    4300094: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>284'
+    4300096: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>286'
+    4300098: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>288'
+    4300100: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>290'
+    4300102: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>292'
+    4300104: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>294'
+    4300106: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>296'
+    4300108: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>298'
+    4300110: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>300'
+    4300112: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>016'
+    4300114: 'Walls <Basic Wall : Interior - 5 1/2" Partition (1-hr) (ground level)
+      : Interior - 5 1/2" Partition (1-hr) (ground level)>020'
+    4300116: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>238'
+    4300118: Plane161
+    4300120: 'Walls <Basic Wall : Interior - 3 1/8" Partition (1-hr) Main2High (ground
+      floor) : Interior - 3 1/8" Partition (1-hr) Main2High (ground floor)>242'
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
