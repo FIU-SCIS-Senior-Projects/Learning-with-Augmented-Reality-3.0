@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DetailCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Details>
+		<SystemNumber systemNumber="E1">
+			<Name>Column</Name>
+			<Material>Steel Wide flange</Material>
+			<Size>HSS 14in x 6in x 3/8in</Size>
+			<Description>Square Hollow Structural Section (HSS)</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>50860056</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>South Beam</Name>
+			<Material>Reinforced Concrete</Material>
+			<Size>18" x 12"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>50860056</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>South Foundation</Name>
+			<Material>Reinforced Concrete</Material>
+			<Size>48" CONT.</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>41094278</EmbodiedEnergy>
+			<Attach>South Foundation.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>Precast Panel Wall Assembly</Name>
+			<Material>Concrete, Insulation, Gypsum Board</Material>
+			<Size>10'-4" x 33'</Size>
+			<Description>score lines every 5'-0"</Description>
+			<RValue>15.5 ft²·°F·h/Btu</RValue>
+			<ShadingCoefficient>Does Not Apply</ShadingCoefficient>
+			<EmbodiedEnergy>56,535 Btu/lb</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>Punched Windows</Name>
+			<Material>Glazing</Material>
+			<Size>3'-6" x 3'-6"</Size>
+			<Description>Aluminium frames</Description>
+			<RValue>1.3 ft²·°F·h/Btu</RValue>
+			<ShadingCoefficient>0.80</ShadingCoefficient>
+			<EmbodiedEnergy>5,460 Btu/lb</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>South Doors</Name>
+			<Material>Aluminium/Glazing</Material>
+			<Size>3'-2" x 7'-8"</Size>
+			<Description>Main Lobby entrance with electronic access and closer</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>South Flooring</Name>
+			<Material>Terrazo</Material>
+			<Size>varies</Size>
+			<Description>Flooring material. Manufacturer: Key Resin. Model: TZ-D-D41-09</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Column</Name>
+			<Material>Reinforced conctrete</Material>
+			<Size>24in x 24in</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>50860056</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Beam</Name>
+			<Material>Reinforced conctrete</Material>
+			<Size>14in x 14in</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>50860056</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Foundation</Name>
+			<Material>Reinforced conctrete</Material>
+			<Size>10'-0" x 10'-0" x 30"</Size>
+			<Description>null</Description>
+			<RValue>45 ft²·°F·h/Btu</RValue>
+			<ShadingCoefficient>450</ShadingCoefficient>
+			<EmbodiedEnergy>500</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Footing Beam</Name>
+			<Material>Reinforced Concrete</Material>
+			<Size>30" x 30"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Partition Wall</Name>
+			<Material>Studs with Gypsum</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Wall Panels</Name>
+			<Material>Wood</Material>
+			<Size>42" x 42"</Size>
+			<Description>Custom wood panels, model Natura by Hunter Douglas</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E2">
+			<Name>North Audio/Video</Name>
+			<Material>Wall mounted TV</Material>
+			<Size>3'-6" x 3'-6" tiles</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E3">
+			<Name>West Mat Foundation</Name>
+			<Material>Reinfoced conctrete</Material>
+			<Size>36"</Size>
+			<Description>(-)4'-0" Elevation</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E3">
+			<Name>West Shear Wall</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E4">
+			<Name>Façade</Name>
+			<Material>Precast Concrete</Material>
+			<Size>10'-4" x 33'</Size>
+			<Description>null</Description>
+			<RValue>15.5 ft²·°F·h/Btu</RValue>
+			<ShadingCoefficient>0.8</ShadingCoefficient>
+			<EmbodiedEnergy>56,535 Btu/lb</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E4">
+			<Name>Truss System</Name>
+			<Material>Steel Wide flange</Material>
+			<Size>W18 x 86</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="M1">
+			<Name>Mechanical Room</Name>
+			<Material>Air Handeling Unit</Material>
+			<Size>21'x15'-2"</Size>
+			<Description>Room uses vents to the exterior to feed the Energy Recovery Unit inside.</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>M-14.png</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="M1">
+			<Name>Mechanical Room</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>Glimpse inside the mechanical room.</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>West Mechanical Room.mp4</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="M2">
+			<Name>South Generator Room</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>Room has an exhaust and an entire wall with vents to control the interior heat of the generator when it functions.</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>South Generator Room.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="M2">
+			<Name>South Generator Room</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>Glimpse inside the generator room.</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>S Generator Room.mp4</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="M3">
+			<Name>Central Mechanical Room</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Central Mechanical Room.png</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="M3">
+			<Name>Central Mechanical Room</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>Glimpse inside the mechanical room.</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Central Mechanical Room.mp4</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E5">
+			<Name>Truss system</Name>
+			<Material>Steel Wide flange</Material>
+			<Size>W18 x 86</Size>
+			<Description>Truss diagonal 18 inches deep and 86 pounds per foot</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E5">
+			<Name>East Truss System</Name>
+			<Material>Steel Wide flange</Material>
+			<Size>W16x57</Size>
+			<Description>Truss is suspended 16'-6.5" from ground, connecting floor, roof and east and west trusses.</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E5">
+			<Name>Cantilever Floor Structure</Name>
+			<Material>One-way Framing System</Material>
+			<Size>Steel</Size>
+			<Description>Steel structure is arranged in rectangular base to carry the load by bending in only one direction</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E5">
+			<Name>Cantilever Roof Structure</Name>
+			<Material>Open web joists</Material>
+			<Size>44 LH 15</Size>
+			<Description>Variable legnth</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E5">
+			<Name>Laminate Wall Panels</Name>
+			<Material>Plastic laminate</Material>
+			<Size>varies</Size>
+			<Description>Manufacturer: Wilsonart. Model: 78050-60</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="A1">
+			<Name>Curtain Wall</Name>
+			<Material>Glass and Aluminium Frame</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>3.2 ft²·°F·h/Btu</RValue>
+			<ShadingCoefficient>0.8</ShadingCoefficient>
+			<EmbodiedEnergy>122,321 Btu/lb</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="A1">
+			<Name>North Corner</Name>
+			<Material>Aluminium frame</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>0.01</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>14454288</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="E1">
+			<Name>South Beam</Name>
+			<Material>Steel Wide flange</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Column">
+			<Name>Base plate</Name>
+			<Material>Steel</Material>
+			<Size>3/4 x 12 x 1'-8"</Size>
+			<Description>Welded connection connecting column to foundation</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Base plate.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Column">
+			<Name>Cap plate</Name>
+			<Material>Steel</Material>
+			<Size>1/2 x 8 x 1'-3"</Size>
+			<Description>Cap plate connects the top of the column and the olumn is biaxially skewed on plate</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Cap plate.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Column">
+			<Name>Column base</Name>
+			<Material>Steel studs</Material>
+			<Size>1 1/2in</Size>
+			<Description>3 rows @ 7 1/2" O/C</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Col base detail.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Foundation">
+			<Name>Main Reinforcement Bars</Name>
+			<Material>Steel</Material>
+			<Size>4#5 CONT.</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Foundation">
+			<Name>Temperature and Shrinkage Bars</Name>
+			<Material>Steel Reinforcement Bars</Material>
+			<Size>4#5 CONT.</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Beam">
+			<Name>Bottom Reinforcement Bars</Name>
+			<Material>Steel</Material>
+			<Size>3#7</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Beam">
+			<Name>Top Reinforcement Bars</Name>
+			<Material>Steel</Material>
+			<Size>3#6</Size>
+			<Description>Rebars are used as tension devices providing additional stregnth to concrete members</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Beam">
+			<Name>Stirrups</Name>
+			<Material>Steel</Material>
+			<Size>#4</Size>
+			<Description>Spacing @ 9 inches. Stirrups hold main rebars together in an RCC structure and prevent buckling</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Façade">
+			<Name>Precast Concrete</Name>
+			<Material>precast concrete</Material>
+			<Size>10'-4" x 33'</Size>
+			<Description>score lines every 5'-0"</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Windows">
+			<Name>Glazing</Name>
+			<Material>Glass</Material>
+			<Size>3'-6" x 3'-6"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Windows">
+			<Name>Framing</Name>
+			<Material>Alumunium</Material>
+			<Size>3'-6" x 3'-6"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Doors">
+			<Name>Door</Name>
+			<Material>Aluminium/Glazing</Material>
+			<Size>3'-2" x 7'-8"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Doors">
+			<Name>Framing</Name>
+			<Material>null</Material>
+			<Size>3'-2" x 7'-8"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Column">
+			<Name>Vertical Reinforcement</Name>
+			<Material>Steel Reinforcement Bars</Material>
+			<Size>8 #11</Size>
+			<Description>87" of splice</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>North Column.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Column">
+			<Name>Tie</Name>
+			<Material>Steel</Material>
+			<Size>4</Size>
+			<Description>22" spacing</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Beam">
+			<Name>Structure Ties</Name>
+			<Material>Steel</Material>
+			<Size>#4</Size>
+			<Description>Hold vertical re-bars together while reducing column buckling</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Foundation">
+			<Name>Main Reinforcement Bars</Name>
+			<Material>Steel</Material>
+			<Size>9#8 EW</Size>
+			<Description>EW: Each Way</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Foundation">
+			<Name>Temperature and Shrinkage Bars</Name>
+			<Material>Steel</Material>
+			<Size>9#8 EW</Size>
+			<Description>EW: Each Way</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Footing Beam">
+			<Name>Top Reinforcement Bar</Name>
+			<Material>Steel</Material>
+			<Size>3#11</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Footing Beam">
+			<Name>Bottom Reinforcement Bar</Name>
+			<Material>Steel</Material>
+			<Size>3#11</Size>
+			<Description>Spacing 24" OA</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Foundation">
+			<Name>Reinforced Concrete</Name>
+			<Material>Concrete</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Shear Wall">
+			<Name>Main Reinforcement</Name>
+			<Material>Steel</Material>
+			<Size>no.9 bars @ 12"</Size>
+			<Description>Each Face</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Shear Wall">
+			<Name>Stirrups</Name>
+			<Material>Steel</Material>
+			<Size>no.4 bars @ 14"</Size>
+			<Description>Each Face</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Partition Wall">
+			<Name>2HR. Rated shear wall</Name>
+			<Material>Furring and Plaster</Material>
+			<Size>W 2 1/4"</Size>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Foundation">
+			<Name>Main Reinforcement Bars</Name>
+			<Material>Steel</Material>
+			<Size>no.11 bars</Size>
+			<Description>spacing @ 12" </Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Foundation">
+			<Name>Temperature and Shrinkage Bars</Name>
+			<Material>Steel</Material>
+			<Size>no.11 bars</Size>
+			<Description>spacing @ 12" </Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Truss Top Chord </Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W30x148</Size>
+			<Description>Top and bottom chords carry truss bending moment</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Truss Bottom Chord</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W14x159</Size>
+			<Description>Top and bottom chords carry truss bending moment</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Truss Vertical Members</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W10x60</Size>
+			<Description>Vertical elements carrying compressive forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Truss Vertical Members</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W12x79</Size>
+			<Description>Vertical elements carrying compressive forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Diagonal Web</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W18x86</Size>
+			<Description>Web members carry truss shear forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Bolted connection</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>Web angles</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Web Stifners</Name>
+			<Material>Steel</Material>
+			<Size>1/2" thick</Size>
+			<Description>Used to increase the shear capacity of the beam</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Truss System">
+			<Name>Gusset Plate</Name>
+			<Material>Steel</Material>
+			<Size>1/2" thick</Size>
+			<Description>Steel plates used to connect diagonals and truss chords</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Top Chord</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W30x148</Size>
+			<Description>Top and bottom chords carry the bending moment of the truss</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Bottom Chord</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W14x159</Size>
+			<Description>Top and bottom chords carry the bending moment of the truss</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Column small</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W10x60</Size>
+			<Description>Steel columns serve as vertical web elements carry compressive forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Column large</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W12x79</Size>
+			<Description>Steel columns serve as vertical web elements carry compressive forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Diagonal Web</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W18x86</Size>
+			<Description>Web members carry the shear force of the truss</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Bolted connection for precast walls</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Web Stifners</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>Used to increase the shear capacity of the beam</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Gusset Plate</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>Steel plates used to connect diagonals and chords of the truss</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Truss System">
+			<Name>Horizontal bridging</Name>
+			<Material>Steel</Material>
+			<Size>W12x40</Size>
+			<Description>Provide lateral bracing</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="East Truss System">
+			<Name>Truss Top Chord </Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W14x74</Size>
+			<Description>Top and bottom chords carry truss bending moment</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="East Truss System">
+			<Name>Truss Bottom Chord</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W24x76</Size>
+			<Description>Top and bottom chords carry truss bending moment</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="East Truss System">
+			<Name>Truss Vertical Members</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W10x60</Size>
+			<Description>Vertical elements carrying compressive forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="East Truss System">
+			<Name>Diagonal Web</Name>
+			<Material>Steel Wide Flange</Material>
+			<Size>W16x45</Size>
+			<Description>Web members carry truss shear forces</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="East Truss System">
+			<Name>Web Stifners</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>Used to increase the shear capacity of the beam</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="East Truss System">
+			<Name>Gusset Plate</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>Steel plates used to connect diagonals and chords of the truss</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Floor Structure">
+			<Name>Floor beam</Name>
+			<Material>Steel</Material>
+			<Size>W24x62</Size>
+			<Description>Supporting the floor slab</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Floor Structure">
+			<Name>Purlin</Name>
+			<Material>Steel</Material>
+			<Size>4x4x1/2</Size>
+			<Description>Two back to back angles connected with a 1/2"x4"x10" plate</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Purlin.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Floor Structure">
+			<Name>Concrete deck slab</Name>
+			<Material>Concrete</Material>
+			<Size>5" reinforced with #4@12"</Size>
+			<Description>Composite steel construction</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Roof Structure">
+			<Name>Small Open web joists</Name>
+			<Material>Steel joists</Material>
+			<Size>36" deep 12 lb/ft</Size>
+			<Description>Joist size increases with increasing span legnth</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Roof Structure">
+			<Name>Large Open web joists</Name>
+			<Material>Steel joists</Material>
+			<Size>60" deep 15 lb/ft</Size>
+			<Description>Joist size decreases with decreasing span legnth</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Roof Structure">
+			<Name>Horizontal bridging</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>Connected to the bottom chord of the web joist</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Cantilever Roof Structure">
+			<Name>Concrete roof slab</Name>
+			<Material>Concrete</Material>
+			<Size>5" reinforced with #4@12"</Size>
+			<Description>Composite steel construction</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Mechanical Room">
+			<Name>Energy Recovery Ventilator</Name>
+			<Material>Captures Heat from Exhaust Air</Material>
+			<Size>70"x75"x67"</Size>
+			<Description>Inside: Air handler units (AHU) and Energy Recovery Ventilator (ERV-1_M-11 drawing set detail) cooling air is distributed into Large Classroom 2 through duct works, which use VAV systems and diffusers. 
+Weight: 1025lbs. Indoor unit. Manufacturer: Greenheck</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>EVR-1.PNG</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Mechanical Room">
+			<Name>Air Handling Unit 1.1</Name>
+			<Material>Alumunium</Material>
+			<Size>null</Size>
+			<Description>TRANE MCCB012. Total capacity: 203.00MBh</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Mechanical Room">
+			<Name>Air Handling Unit 1.2</Name>
+			<Material>Alumunium</Material>
+			<Size>null</Size>
+			<Description>TRANE MCCB017. Total capacity: 314.00MBh</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Generator Room">
+			<Name>null</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Generator Room">
+			<Name>Muffler Exhaust</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Partition Wall">
+			<Name>Gypsum wall</Name>
+			<Material>Gypsum</Material>
+			<Size>5/8"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Partition Wall">
+			<Name>Steel Studs</Name>
+			<Material>steed</Material>
+			<Size>1 5/8"</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Corner">
+			<Name>Curtain Wall</Name>
+			<Material>Glazing</Material>
+			<Size>21'</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="North Corner">
+			<Name>Wall Panel</Name>
+			<Material>Precast concrete</Material>
+			<Size>10'-4" x 33'</Size>
+			<Description>score lines every 5'-0"</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Steel Connection">
+			<Name>Steel botled connection</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Steel Connection">
+			<Name>Steel welded L connection</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Wall Panels">
+			<Name>Interior wall finish</Name>
+			<Material>Plaster</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Foundation">
+			<Name>Headed bolt</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>Threaded rod with welded nut</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="West Shear Wall">
+			<Name>Ties</Name>
+			<Material>Steel</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="South Wall Panels">
+			<Name>null</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="A/C Ducts">
+			<Name>Return and Exhausts</Name>
+			<Material>Aluminium</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Central Mechanical Room">
+			<Name>AHU</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>Air Handling Unit</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>Central Mechanical Room.png</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Pipe Support Detail">
+			<Name>Pipe Support Detail</Name>
+			<Material>Aluminium</Material>
+			<Size>null</Size>
+			<Description>Clevis pipe support with insulated pipes. M-10 drawing set detail</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+		<SystemNumber systemNumber="Roof VAV Unit">
+			<Name>VAV Unit</Name>
+			<Material>null</Material>
+			<Size>null</Size>
+			<Description>null</Description>
+			<RValue>null</RValue>
+			<ShadingCoefficient>null</ShadingCoefficient>
+			<EmbodiedEnergy>null</EmbodiedEnergy>
+			<Attach>null</Attach>
+		</SystemNumber>
+	</Details>
+</DetailCollection>
