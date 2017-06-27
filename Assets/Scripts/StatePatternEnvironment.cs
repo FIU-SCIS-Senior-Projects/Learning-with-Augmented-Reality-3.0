@@ -586,6 +586,8 @@ public class StatePatternEnvironment : MonoBehaviour
 
     public void highlight()
     {
+		#if !UNITY_IOS
+
         RaycastHit hit = new RaycastHit();
         //Shader originalShader = null;
 
@@ -757,5 +759,195 @@ public class StatePatternEnvironment : MonoBehaviour
         //        }
         //    }
         //}
+
+		#endif
+
+		#if UNITY_IOS
+
+		//Debug.Log("Mobile IOS");
+
+		RaycastHit hit = new RaycastHit();
+		//Shader originalShader = null;
+
+		//if(Input.touches.Length > 0)
+		//{
+			//Debug.Log("1");
+			//Debug.Log("Input.touches.Length" + Input.touches.Length);
+		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+			{
+				//Debug.Log("2");
+
+		//if a component is not hit
+		//if (!Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))// | 1 << 16)))
+		//{
+			//Debug.Log("Nothing Hit.");
+			selectedComponent = null;
+
+			//if there was a previouslyselectedcomponent
+			if (previousSelectedComponent != null)
+			{
+				//Unhiglight Previous//
+
+				//If its a component
+				if (previousSelectedComponent.tag == "MajorComponent" || previousSelectedComponent.tag == "SubComponent")
+				{
+					//There is a previous selected and it does have a shader
+					//Debug.Log(Organized.Instance.systemDictionary[currentSystemName + " (Trans)"].originalShaders[previousSelectedComponent.name]);
+
+					//Unhighlight the previousSelectedComponent
+					previousSelectedComponent.GetComponent<Renderer>().material.shader = Organized.Instance.systemDictionary[currentSystemName + " (Trans)"].originalShaders[previousSelectedComponent.name];
+				}
+
+				//If its an ExpandIcon
+				if (previousSelectedComponent.tag == "ExpandIcon")
+				{
+					//previousSelectedComponent.GetComponent<Renderer>().material.shader = expandIconShader;
+					previousSelectedComponent.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_Color"), new Color32(0, 0, 0, 10));
+				}
+
+				//If its an ExteriorWall
+				//if(previousSelectedComponent.tag == "Exterior")
+				//{
+				//    //Unhighlight the previousSelectedComponent
+				//    previousSelectedComponent.GetComponent<Renderer>().material.shader = Organized.Instance.systemDictionary[currentSystemName].originalShaders[previousSelectedComponent.name];
+				//}
+
+				previousSelectedComponent = null;
+			}
+		}
+
+		//if a component is hit
+		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		{
+			if (hit.collider.tag == "MajorComponent" || hit.collider.tag == "SubComponent" || hit.collider.tag == "ExpandIcon")// || hit.collider.tag == "Exterior")// || hit.collider.tag == "Clickable")
+			{
+				//Save this component as the new selected component
+				selectedComponent = hit.collider.gameObject;
+
+				//If there is a previously selected component
+				if (previousSelectedComponent != null)
+				{
+					//Unhighlight Previous//
+					//If its a component
+					if (previousSelectedComponent.tag == "MajorComponent" || previousSelectedComponent.tag == "SubComponent")
+					{
+						//Unhighlight the previousSelectedComponent
+						previousSelectedComponent.GetComponent<Renderer>().material.shader = Organized.Instance.systemDictionary[currentSystemName + " (Trans)"].originalShaders[previousSelectedComponent.name];
+					}
+					//If its an ExpandIcon
+					if (previousSelectedComponent.tag == "ExpandIcon")
+					{
+						//previousSelectedComponent.GetComponent<Renderer>().material.shader = expandIconShader;
+						previousSelectedComponent.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_Color"), new Color32(0,0,0,10));
+					}
+
+					//If its an ExteriorWall
+					//if (previousSelectedComponent.tag == "Exterior")// || previousSelectedComponent.tag == "Clickable")
+					//{
+					//    previousSelectedComponent.GetComponent<Renderer>().material.shader = Organized.Instance.systemDictionary[currentSystemName].originalShaders[previousSelectedComponent.name];
+					//}
+				}
+
+				///Highlight selectedComponent///
+
+				//If its a component
+				if (selectedComponent.tag == "MajorComponent" || selectedComponent.tag == "SubComponent")
+				{
+					selectedComponent.GetComponent<Renderer>().material.shader = highlightShader;
+					selectedComponent.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_FresnelColor"), Color.cyan);
+				}
+
+				//If its a expandIcon
+				if (selectedComponent.tag == "ExpandIcon")
+				{
+					//selectedComponent.GetComponent<Renderer>().material.shader = highlightShader;
+					selectedComponent.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_Color"), Color.cyan);
+
+					//if (selectedComponent.transform.parent.parent.parent.parent.tag == "MajorComponent")
+					//{
+					//    //Debug.Log(selectedComponent.transform.parent.parent.parent.parent.name);
+					//    //Debug.Log(Organized.Instance.systemDictionary[currentSystemName + " (Trans)"].majorComponentDictionary[selectedComponent.transform.parent.parent.name]._root.name);
+					//    Organized.Instance.systemDictionary[currentSystemName + " (Trans)"].majorComponentDictionary[selectedComponent.transform.parent.parent.name]._root.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_FresnelColor"), Color.cyan);
+					//}
+				}
+
+				//If its an ExteriorWall
+				//if (selectedComponent.tag == "Exterior")// || selectedComponent.tag == "Clickable")
+				//{
+				//    selectedComponent.GetComponent<Renderer>().material.shader = highlightShader;
+				//    selectedComponent.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_FresnelColor"), new Color32(255, 255, 225, 50));
+				//}
+
+				previousSelectedComponent = selectedComponent;
+			}
+		}
+				//} //end of if
+
+		//if (currentState == mainState)
+		//{
+		//    //Exterior Walls
+		//    if (!Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, 1 << 16))
+		//    {
+		//        //Debug.Log("Nothing Hit.");
+		//        selectedComponentExterior = null;
+
+		//        //if there was a previouslyselectedcomponent
+		//        if (previousSelectedComponentExterior != null)
+		//        {
+		//            //Unhiglight Previous//
+
+		//            //If its an ExteriorWall
+		//            if (previousSelectedComponentExterior.tag == "Exterior")
+		//            {
+		//                //Unhighlight the previousSelectedComponent
+		//                if (Organized.Instance.systemDictionary[currentSystemName].originalShaders[previousSelectedComponentExterior.name])
+		//                {
+		//                    previousSelectedComponentExterior.GetComponent<Renderer>().material.shader = Organized.Instance.systemDictionary[currentSystemName].originalShaders[previousSelectedComponentExterior.name];
+		//                }
+		//            }
+
+		//            previousSelectedComponentExterior = null;
+		//        }
+		//    }
+
+		//    //if a component is hit
+		//    if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 16)))
+		//    {
+		//        if (hit.collider.tag == "Exterior")// || hit.collider.tag == "Clickable")
+		//        {
+		//            //Save this component as the new selected component
+		//            selectedComponentExterior = hit.collider.gameObject;
+
+		//            //If there is a previously selected component
+		//            if (previousSelectedComponentExterior != null)
+		//            {
+		//                //Unhighlight Previous//
+
+		//                //If its an ExteriorWall
+		//                if (previousSelectedComponentExterior.tag == "Exterior")// || previousSelectedComponent.tag == "Clickable")
+		//                {
+		//                    if (Organized.Instance.systemDictionary[currentSystemName].originalShaders[previousSelectedComponentExterior.name])
+		//                    {
+		//                        previousSelectedComponentExterior.GetComponent<Renderer>().material.shader = Organized.Instance.systemDictionary[currentSystemName].originalShaders[previousSelectedComponentExterior.name];
+		//                    }
+		//                }
+		//            }
+
+		//            ///Highlight selectedComponent///
+
+		//            //If its an ExteriorWall
+		//            if (selectedComponentExterior.tag == "Exterior")// || selectedComponent.tag == "Clickable")
+		//            {
+		//                selectedComponentExterior.GetComponent<Renderer>().material.shader = highlightShader;
+		//                selectedComponentExterior.GetComponent<Renderer>().material.SetColor(Shader.PropertyToID("_FresnelColor"), new Color32(255, 255, 225, 50));
+		//            }
+
+		//            previousSelectedComponentExterior = selectedComponentExterior;
+		//        }
+		//    }
+		//}
+
+		#endif
+
     }
 }
