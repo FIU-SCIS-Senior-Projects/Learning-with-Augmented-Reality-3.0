@@ -172,7 +172,6 @@ public class Organized : MonoBehaviour
 		worldsCanvas = findGameObject("WorldCanvas");
 		diagramButtons = findGameObject("DiagramButtons");
 
-
         //Initializes the Skyboxes
         defaultSky = RenderSettings.skybox;
         //Debug.Log(defaultSky.name);
