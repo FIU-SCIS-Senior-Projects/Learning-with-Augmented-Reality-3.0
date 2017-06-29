@@ -217,9 +217,9 @@ public class StatePatternEnvironment : MonoBehaviour
         currentState.UpdateState();
         highlight();
 
-		if (currentState != Organized.Instance.globalCurrentState) {
+		//if (currentState != Organized.Instance.globalCurrentState) {
 			Organized.Instance.globalCurrentState = currentState;
-		}
+		//}
 
         foreach (ExpandIcon item in Organized.Instance.expandIcons)
         {
@@ -534,7 +534,7 @@ public class StatePatternEnvironment : MonoBehaviour
         }
     }
 
-    public void highlight()
+	public void highlight()
     {
 		#if UNITY_EDITOR
 
@@ -724,14 +724,16 @@ public class StatePatternEnvironment : MonoBehaviour
 		Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red, Mathf.Infinity);
 
 		RaycastHit hit = new RaycastHit();
-		//Shader originalShader = null;
+
+		Ray myRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
 		//if(Input.touches.Length > 0)
 		//{
 			//Debug.Log("1");
 			//Debug.Log("Input.touches.Length" + Input.touches.Length);
-		if (!Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
-			{
+		//if (!Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		if (!Physics.Raycast(myRay, out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		{
 				//Debug.Log("2");
 
 		//if a component is not hit
@@ -774,7 +776,8 @@ public class StatePatternEnvironment : MonoBehaviour
 		}
 
 		//if a component is hit
-		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		//if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
 		{
 			if (hit.collider.tag == "MajorComponent" || hit.collider.tag == "SubComponent" || hit.collider.tag == "ExpandIcon")// || hit.collider.tag == "Exterior")// || hit.collider.tag == "Clickable")
 			{

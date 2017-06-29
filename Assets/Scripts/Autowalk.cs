@@ -66,11 +66,29 @@ public class Autowalk : MonoBehaviour
 		// Walk when the Cardboard Trigger is used 
 		if (walkWhenTriggered && !walkWhenLookDown && !isWalking) //&& GvrViewer.Instance.Triggered)
 		{
+			#if UNITY_EDITOR
+			if(Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+			{
+				isWalking = true;
+			}
+			#endif
+
+			#if !UNITY_EDITOR
 			isWalking = true;
+			#endif
 		}
 		else if (walkWhenTriggered && !walkWhenLookDown && isWalking) // && GvrViewer.Instance.Triggered)
 		{
+			#if UNITY_EDITOR
+			if(Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+			{
+				isWalking = false;
+			}
+			#endif
+
+			#if !UNITY_EDITOR
 			isWalking = false;
+			#endif
 		}
 
 		// Walk when player looks below the threshold angle 

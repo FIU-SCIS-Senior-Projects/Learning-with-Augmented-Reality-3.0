@@ -82,11 +82,20 @@ public class IconState : IEnvironmentState
 
     public void UpdateState()
     {
-        //returns collider.tag on click
-        if (Input.GetMouseButtonDown(0))
-        {
-            OnTriggerClicked();
-        }
+		//returns collider.tag on click
+		#if UNITY_EDITOR
+		if (Input.GetMouseButtonDown(0))
+		{
+			OnTriggerClicked();
+		}
+		#endif
+
+		#if UNITY_IOS && !UNITY_EDITOR
+		if(Input.touches.Length > 0)
+		{
+		OnTriggerClicked();
+		}
+		#endif
 
         envi.timer += Time.deltaTime;
         if (envi.timer > 5f)
@@ -96,7 +105,7 @@ public class IconState : IEnvironmentState
         }
 
     }
-
+	//Layers: 8: Components, 9: Button, 10: ExpandIcon, 11: Exterior, 13: ExpandIconUI 
     public void OnTriggerClicked()
     {
         string collidertag = null;
@@ -104,9 +113,11 @@ public class IconState : IEnvironmentState
         List<string> tempEventNames = new List<string>();
         List<GameObject> systemsHit = new List<GameObject>();
         RaycastHit hit = new RaycastHit();
+		Ray myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
 
         //if raycast hits
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, ((1 << 10) | (1 << 14))))
+        //if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, ((1 << 10) | (1 << 14))))
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, ((1 << 10))))// | (1 << 14))))    
         {
             if (hit.collider != null)
             {

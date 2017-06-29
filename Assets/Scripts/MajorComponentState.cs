@@ -83,6 +83,7 @@ public class MajorComponentState : IEnvironmentState
         }
     }
 
+	//Layers: 8: Components, 9: Button, 10: ExpandIcon, 11: Exterior
     //Fix This
     public void OnTriggerClicked()
     {
@@ -96,7 +97,7 @@ public class MajorComponentState : IEnvironmentState
 
 		//if raycast hits
 		//if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, ((1 << 8) | (1 << 9) | (1 << 10) | (1 << 11))))
-		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, ((1 << 9) | (1 << 10) | (1 << 12))))
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, ((1 << 9) | (1 << 10) | (1 << 11) | (1 << 14))))
 		{
             if (hit.collider != null)
             {
