@@ -536,13 +536,17 @@ public class StatePatternEnvironment : MonoBehaviour
 
     public void highlight()
     {
-		#if UNITY_EDITOR && UNITY_IOS
+		#if UNITY_EDITOR
 
         RaycastHit hit = new RaycastHit();
+		Ray myRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+
+		Debug.DrawLine (Camera.main.transform.position, Camera.main.transform.position + new Vector3 (0, 0, 100f), Color.cyan);
 
         //if a component is not hit
-        if (!Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))// | 1 << 16)))
+        //if (!Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))// | 1 << 16)))
 		//if (!Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))	
+		if (!Physics.Raycast(myRay, out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
 		{
             //Debug.Log("Nothing Hit.");
             selectedComponent = null;
@@ -581,8 +585,9 @@ public class StatePatternEnvironment : MonoBehaviour
         }
 
         //if a component is hit
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))// | 1 << 16)))
-        {
+        //if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))// | 1 << 16)))
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		{
             if (hit.collider.tag == "MajorComponent" || hit.collider.tag == "SubComponent" || hit.collider.tag == "ExpandIcon")// || hit.collider.tag == "Exterior")// || hit.collider.tag == "Clickable")
             {
                 //Save this component as the new selected component
