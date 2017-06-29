@@ -306,8 +306,11 @@ public class SubAnnotate : SubDetailLoader
             //RaycastHit hit;
             RaycastHit hit = new RaycastHit();
 
+			#if UNITY_EDITOR
+
             //if raycast hit
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit)) //for mouse position to click
+			//if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity)) //for look position to click
             {
                 //Debug.Log(hit.collider.tag);
                 //if (hit.collider.tag.Equals("MajorComponent"))
@@ -365,8 +368,74 @@ public class SubAnnotate : SubDetailLoader
 
                 }
             }
+			#endif
+
+			#if UNITY_IOS && !UNITY_EDITOR
+
+			//if raycast hit
+			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+			{
+			//Debug.Log(hit.collider.tag);
+			//if (hit.collider.tag.Equals("MajorComponent"))
+			if (hit.collider == gameObject.GetComponent<MeshCollider>() || hit.collider == gameObject.GetComponent<Collider>() || hit.collider == gameObject.GetComponent<BoxCollider>())
+			{
+			//THIS SUBANNOTATE SCRIPT HAS TO BE ON EVERY SINGLE INDIVIDUAL SUBCOMPONET THAT WILL BE CLICKED
+			//NO IT DOSNT IF THEY ARE ALL THE SAME
+			//BUT THE FIRST OPTION IS FAR EASIER
+
+			//majorComponentText.text = "Major Component: " + getData(1); //Recently removed
+
+			//Debug.Log("Detail Hit!");
+			/*
+			currentCollider = hit.collider;
+			if(subColliders.Contains(currentCollider) == false)
+			{
+			subColliders.Add(currentCollider);
+			SubComponent subComp = new SubComponent(currentCollider.name, currentCollider.transform.position, true, currentCollider);
+			formatTextMesh(subComp);
+			getPositions();
+			drawLines();
+			activateExplode();
+			}
+			*/
+			//Debug.Log("First Click");
+			//formatTextMesh();
+			//annotatePanel.SetActive(true);
+
+			if (created == false)
+			{
+			formatTextMesh();
+			}
+			//getPositions();
+			//drawLines();
+			//activateExplode();
+			else
+			{
+			//Debug.Log("Not First Click");
+			//activateExplode();
+			//drawLines();
+			for (int i = 0; i < texts.Count; i++)
+			{
+			texts[i].transform.gameObject.SetActive(true);
+			}
+			}
+			return "activate2";
+			}
+
+			else
+			{
+			for (int i = 0; i < texts.Count; i++)
+			{
+			texts[i].transform.gameObject.SetActive(false);
+			}
+
+			}
+			}
+
+			#endif
         }
         return "";
+			
     }
 
     public string ray()

@@ -140,51 +140,9 @@ public class StatePatternEnvironment : MonoBehaviour
         expandIconMaterialH = Resources.Load("IconBlackHighlight") as Material;
         expandIconShaderH = expandIconMaterialH.shader;
 
+		//Camera variables
 		cameraHead = GameObject.Find("Player");
-		//cameraController = GameObject.Find ("");
-
-        //Update Variables//
-//#if UNITY_IOS || UNITY_ANDROID
-//
-//        //cameraHead = GameObject.Find("FPSController (Mobile)");
-//        //cameraDesktopController.SetActive(false);
-//
-//		if (MobileOn)
-//		{
-//			cameraHead = GameObject.Find("FPSController (Mobile)");
-//			cameraDesktopController.SetActive(false);
-//			cameraVRController.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_Camera = cameraVR.GetComponent<Camera>();
-//		}
-//		else
-//		{
-//			//cameraHead = GameObject.Find("FPSController");
-//			cameraHead = GameObject.Find("Player");
-//			cameraVRController.SetActive(false);
-//			cameraDesktopController.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_Camera = cameraDesktop.GetComponent<Camera>();
-//		}
-//
-//#endif
-//
-//#if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
-//
-//        if (MobileOn)
-//        {
-//            cameraHead = GameObject.Find("FPSController (Mobile)");
-//            cameraDesktopController.SetActive(false);
-//            cameraVRController.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_Camera = cameraVR.GetComponent<Camera>();
-//        }
-//        else
-//        {
-//            //cameraHead = GameObject.Find("FPSController");
-//			cameraHead = GameObject.Find("Player");
-//            cameraVRController.SetActive(false);
-//            cameraDesktopController.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_Camera = cameraDesktop.GetComponent<Camera>();
-//        }
-//#endif
-
         isMoving = false;
-
-
 
         //Fade Variables//
         transMaterial = Resources.Load("concreteLightTrans") as Material;
@@ -227,7 +185,7 @@ public class StatePatternEnvironment : MonoBehaviour
 
         //Ignore List
         List<string> ignore = new List<string>();
-		ignore.Add ("VR_Heavy");
+		ignore.Add (currentSystemName);
 
 		//Hide at Start List
 		List<Transform> hideSystems = new List<Transform> ();
@@ -258,7 +216,10 @@ public class StatePatternEnvironment : MonoBehaviour
     {
         currentState.UpdateState();
         highlight();
-        Organized.Instance.globalCurrentState = currentState;
+
+		if (currentState != Organized.Instance.globalCurrentState) {
+			Organized.Instance.globalCurrentState = currentState;
+		}
 
         foreach (ExpandIcon item in Organized.Instance.expandIcons)
         {
@@ -273,17 +234,6 @@ public class StatePatternEnvironment : MonoBehaviour
             timer = 0;
         }
     }
-
-    void OnEnable()
-    {
-        //EventManager.StartListening("ExpandIcon", callExpand);
-    }
-
-    void OnDisable()
-    {
-        //EventManager.StopListening("ExpandIcon", callExpand);
-    }
-
 
     ///State Dependent Methods///
 
@@ -586,14 +536,14 @@ public class StatePatternEnvironment : MonoBehaviour
 
     public void highlight()
     {
-		#if !UNITY_IOS
+		#if UNITY_EDITOR && UNITY_IOS
 
         RaycastHit hit = new RaycastHit();
-        //Shader originalShader = null;
 
         //if a component is not hit
         if (!Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))// | 1 << 16)))
-        {
+		//if (!Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))	
+		{
             //Debug.Log("Nothing Hit.");
             selectedComponent = null;
 
@@ -762,11 +712,11 @@ public class StatePatternEnvironment : MonoBehaviour
 
 		#endif
 
-		#if UNITY_IOS
+		#if UNITY_IOS && !UNITY_EDITOR
 
 		//Debug.Log("Mobile IOS");
 		Debug.Log(Camera.main);
-		Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.white, Mathf.Infinity);
+		Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red, Mathf.Infinity);
 
 		RaycastHit hit = new RaycastHit();
 		//Shader originalShader = null;
@@ -775,7 +725,7 @@ public class StatePatternEnvironment : MonoBehaviour
 		//{
 			//Debug.Log("1");
 			//Debug.Log("Input.touches.Length" + Input.touches.Length);
-		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
+		if (!Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, Mathf.Infinity, (1 << 8 | 1 << 10 | 1 << 11)))
 			{
 				//Debug.Log("2");
 

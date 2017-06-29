@@ -159,8 +159,15 @@ public class MajorAnnotate : MonoBehaviour
         //RaycastHit hit;
         RaycastHit hit = new RaycastHit();
 
+		Ray myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
+
+		//Debug.DrawRay (Camera.main.transform.position, Camera.main.transform.forward, Color.green); //draws ray forward from main cam
+
+		#if UNITY_EDITOR
+
         //if raycast hit
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, (1 << 8) | (1 << 16)))
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, (1 << 8) | (1 << 16)))
+		//if (Physics.Raycast(Camera.main.transform.position, out hit, Mathf.Infinity, (1 << 8) | (1 << 16)))
         {
             //Debug.Log(hit.collider.tag);
 
@@ -268,6 +275,123 @@ public class MajorAnnotate : MonoBehaviour
 
             //Organized.Instance.panelDictionary["Panel_Diagram"].SetActive(false);
         }
+
+		#endif
+
+		#if UNITY_IOS && !UNITY_EDITOR
+
+		//if raycast hit
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, (1 << 8) | (1 << 16)))
+			//if (Physics.Raycast(Camera.main.transform.position, out hit, Mathf.Infinity, (1 << 8) | (1 << 16)))
+		{
+			//Debug.Log(hit.collider.tag);
+
+			if (hit.collider.tag.Equals("MajorComponent") || hit.collider.tag.Equals("Exterior") || hit.collider.tag.Equals("Clickable"))
+			{
+				if (hit.collider == gameObject.GetComponent<MeshCollider>() || hit.collider == gameObject.GetComponent<Collider>() || hit.collider == gameObject.GetComponent<BoxCollider>())
+				{
+					//Debug.Log("Detail Hit!");
+					//Debug.Log(hit.collider);
+					//currentCollider = hit.collider;
+					//Debug.Log(currentCollider);
+					//Debug.Log(Organized.Instance.globalCurrentState.ToString());
+					if (hit.collider.tag.Equals("MajorComponent"))
+					{
+						if (created == false)
+						{
+							formatTextMesh();
+						}
+
+						else
+						{
+							//Debug.Log("Not First Click");
+							//activateExplode();
+							//drawLines();
+							for (int i = 0; i < texts.Count; i++)
+							{
+								texts[i].transform.gameObject.SetActive(true);
+							}
+							//for (int i = 0; i < expandIcons.Count; i++)
+							//{
+							//    expandIcons[i].expand();
+							//}
+						}
+					}
+					if (Organized.Instance.globalCurrentState.ToString().Equals("MainState"))
+					{
+						if (hit.collider.tag.Equals("Exterior"))// || hit.collider.tag.Equals("Clickable"))
+						{
+							//Debug.Log ("Exterior Hit");
+							//formatExteriorTextUI ();
+
+							if (created == false)
+							{
+								//currentCollider = hit.collider;
+								formatExteriorTextMesh();
+							}
+
+							else
+							{
+								//Debug.Log("Not First Click");
+								//activateExplode();
+								//drawLines();
+								for (int i = 0; i < texts.Count; i++)
+								{
+									texts[i].transform.gameObject.SetActive(true);
+								}
+								//for (int i = 0; i < expandIcons.Count; i++)
+								//{
+								//    expandIcons[i].expand();
+								//}
+							}
+							//if (Organized.Instance.panelDictionary["Panel_Diagram"].activeSelf)
+							//{
+							//    Organized.Instance.panelDictionary["Panel_Diagram"].SetActive(true);
+							//}
+						}
+					}
+
+					return "activate2";
+				}
+
+				else
+				{
+					//currentCollider = null;
+
+					for (int i = 0; i < texts.Count; i++)
+					{
+						texts[i].transform.gameObject.SetActive(false);
+					}
+
+					//Organized.Instance.panelDictionary["Panel_Diagram"].SetActive(false);
+				}
+
+				//if (previousCollider != null)
+				//{
+				//if (previousCollider != hit.collider)
+				//{
+				//for (int i = 0; i < texts.Count; i++)
+				//{
+				//texts[i].transform.gameObject.SetActive(false);
+				//}
+				//}
+				//}
+				//previousCollider = currentCollider;                
+			}
+		}
+		else
+		{
+			//currentCollider = null;
+
+			for (int i = 0; i < texts.Count; i++)
+			{
+				texts[i].transform.gameObject.SetActive(false);
+			}
+
+			//Organized.Instance.panelDictionary["Panel_Diagram"].SetActive(false);
+		}
+
+		#endif
 
         return "";
     }
