@@ -387,14 +387,14 @@ public class MajorAnnotate : MonoBehaviour
         //Debug.Log(name);
         exName = inName;
 
-        lCornerPivot = icon.transform.FindChild("LeftCornerPivot").gameObject;
-        geometry = icon.transform.FindChild("Geometry").gameObject;
+        lCornerPivot = icon.transform.Find("LeftCornerPivot").gameObject;
+        geometry = icon.transform.Find("Geometry").gameObject;
 
         icon.transform.position = inTransform.position;
         icon.transform.Translate(0, 0, .5f);
         icon.name = inName;
 
-        icon.transform.parent = gameObject.transform.FindChild("IconMarker");
+        icon.transform.parent = gameObject.transform.Find("IconMarker");
 
         formatExpandIcon();
 

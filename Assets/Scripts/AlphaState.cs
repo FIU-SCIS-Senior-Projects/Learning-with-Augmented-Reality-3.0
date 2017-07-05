@@ -126,7 +126,7 @@ public class AlphaState : IARState
 
                         //ToIconState();
 						envi.currentState = envi.iconStateAR;
-						GameObject skopeButton = GameObject.Find("Panel_MechanicalA").transform.FindChild("SKOPE").gameObject;
+						GameObject skopeButton = GameObject.Find("Panel_MechanicalA").transform.Find("SKOPE").gameObject;
 						Organized.Instance.toggle(skopeButton);
                     }
 

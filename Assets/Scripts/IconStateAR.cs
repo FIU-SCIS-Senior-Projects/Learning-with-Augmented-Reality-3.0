@@ -419,7 +419,7 @@ public class IconStateAR : IARState
                             Sprite tempSprite = Resources.Load<Sprite>("HeatRecoveryVentilators");
                             //Debug.Log(diagramPanel.transform.FindChild("DiagramCanvas"));
 
-                            diagramPanel.transform.FindChild("DiagramCanvas").GetComponent<Image>().sprite = tempSprite;
+                            diagramPanel.transform.Find("DiagramCanvas").GetComponent<Image>().sprite = tempSprite;
     
                             //myCS.UpdateSprite(tempSprite);
 
@@ -440,8 +440,8 @@ public class IconStateAR : IARState
 
                             Sprite tempSprite = Resources.Load<Sprite>("AHU");
 
-                            Debug.Log(diagramPanel.transform.FindChild("DiagramCanvas"));
-							diagramPanel.transform.FindChild("DiagramCanvas").GetComponent<Image>().sprite = tempSprite;	
+                            Debug.Log(diagramPanel.transform.Find("DiagramCanvas"));
+							diagramPanel.transform.Find("DiagramCanvas").GetComponent<Image>().sprite = tempSprite;	
 							//myCS.UpdateSprite((Sprite)Resources.Load("AHU") as Sprite);
 							}
 						}
@@ -465,7 +465,7 @@ public class IconStateAR : IARState
 
 								tempEventNames.Add("ExpandIcon");
 								envi.BroadcastEvents(tempEventNames);
-								GameObject skopeButton = GameObject.Find("Panel_MechanicalA").transform.FindChild("SKOPE").gameObject;
+								GameObject skopeButton = GameObject.Find("Panel_MechanicalA").transform.Find("SKOPE").gameObject;
 								Organized.Instance.toggle(skopeButton);
 							}
 							//else envi.currenticon = the new icon and move to that icons zoomPos  

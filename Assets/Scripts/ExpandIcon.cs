@@ -132,8 +132,8 @@ public class ExpandIcon : MonoBehaviour {
         //    geometry = new GameObject();
         //}
 
-        lCornerPivot = icon.transform.FindChild("LeftCornerPivot").gameObject;
-        geometry = icon.transform.FindChild("Geometry").gameObject;
+        lCornerPivot = icon.transform.Find("LeftCornerPivot").gameObject;
+        geometry = icon.transform.Find("Geometry").gameObject;
 
         //Debug.Log(lCornerPivot);
 
@@ -149,7 +149,7 @@ public class ExpandIcon : MonoBehaviour {
         else
         {
             //Debug.Log("Window 2nd " + window);
-            window = icon.transform.FindChild("Window").gameObject;
+            window = icon.transform.Find("Window").gameObject;
         }
 
 
