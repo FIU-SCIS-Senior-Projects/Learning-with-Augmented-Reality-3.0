@@ -159,7 +159,7 @@ public class Organized : MonoBehaviour
 		//player = GameObject.FindGameObjectWithTag("Player");
         
 		baseRoot = findGameObjectWithTag ("BaseRoot").transform;
-		//player = findGameObjectWithTag("Player");
+		player = findGameObjectWithTag("Player");
 
 //		environment = GameObject.Find("Environment");
 //		animations = GameObject.Find("Animations");

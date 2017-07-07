@@ -105,9 +105,11 @@ public class BuildState : IEnvironmentState
         List<string> tempEventNames = new List<string>();
         List<GameObject> systemsHit = new List<GameObject>();
         RaycastHit hit = new RaycastHit();
+		Ray myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
 
-        //if raycast hits
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+		//if raycast hits
+		//if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, ((1 << 10) | (1 << 14))))
+		if (Physics.Raycast(myRay, out hit, Mathf.Infinity, ((1 << 10) | (1 << 9))))    
         {
             if (hit.collider != null)
             {

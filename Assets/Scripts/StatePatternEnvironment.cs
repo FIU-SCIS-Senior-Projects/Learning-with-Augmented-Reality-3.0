@@ -129,6 +129,7 @@ public class StatePatternEnvironment : MonoBehaviour
 
         //State Variables//
         currentState = mainState;
+		Organized.Instance.globalCurrentState = currentState;
 
         currentSystemName = "VR_Heavy";
 
@@ -450,12 +451,14 @@ public class StatePatternEnvironment : MonoBehaviour
     {
         float t = 1;
         cameraHeadSavedPos = cameraHead.transform.position;
-        cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_GravityMultiplier = 0;
+        /*
+		cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_GravityMultiplier = 0;
         cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_WalkSpeed = 0;
         cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_RunSpeed = 0;
         cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_JumpSpeed = 0;
         cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_StickToGroundForce = 0;
-        cameraHead.GetComponent<Rigidbody>().isKinematic = false;
+        */
+        cameraHead.GetComponent<Rigidbody>().isKinematic = true;
         isMoving = true;
 
         while (Vector3.Distance(cameraHead.transform.position, zoomPos) > .05f)
@@ -515,12 +518,14 @@ public class StatePatternEnvironment : MonoBehaviour
         if (Vector3.Distance(cameraHead.transform.position, zoomTo) < .05f)
         {
             //Debug.Log("Camera Reached");
+			/*
             cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_GravityMultiplier = 1;
             cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_WalkSpeed = 2.5f;
             cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_RunSpeed = 5f;
             cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_JumpSpeed = 5f;
             cameraHead.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_StickToGroundForce = 10f;
-            cameraHead.GetComponent<Rigidbody>().isKinematic = true;
+            */
+            cameraHead.GetComponent<Rigidbody>().isKinematic = false;
 
             if(zoomPos == tempPlayerPos)
             {
