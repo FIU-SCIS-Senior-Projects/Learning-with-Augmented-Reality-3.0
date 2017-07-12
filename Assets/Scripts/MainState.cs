@@ -68,14 +68,15 @@ public class MainState : IEnvironmentState
 		#if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0))
         {
-            OnTriggerClicked();
+			Ray myRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+			OnTriggerClicked(myRay);
         }
 		#endif
 
 		#if UNITY_IOS && !UNITY_EDITOR
 		if(Input.touches.Length > 0)
 		{
-			OnTriggerClicked();
+			OnTriggerClicked(Camera.MainState.ScreenPointToRay(Input.touches[0].position));
 		}
 		#endif
 
@@ -100,14 +101,14 @@ public class MainState : IEnvironmentState
         //EventManager.StopListening("SubComponent", ToSubComponentState);
     }
 
-    public void OnTriggerClicked()
+	public void OnTriggerClicked(Ray myRay)
     {
         string collidertag = null;
         //Debug.Log(collidertag);
         List<string> tempEventNames = new List<string>();
         List<GameObject> systemsHit = new List<GameObject>();
         RaycastHit hit = new RaycastHit();
-		Ray myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
+		//Ray myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
 
 		Debug.DrawLine (Camera.main.transform.position, Camera.main.transform.position + new Vector3 (0, 0, 100f), Color.cyan);
         //if raycast hits

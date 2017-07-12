@@ -725,7 +725,7 @@ public class StatePatternEnvironment : MonoBehaviour
 		#if UNITY_IOS && !UNITY_EDITOR
 
 		//Debug.Log("Mobile IOS");
-		Debug.Log(Camera.main);
+		//Debug.Log(Camera.main);
 		Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red, Mathf.Infinity);
 
 		RaycastHit hit = new RaycastHit();

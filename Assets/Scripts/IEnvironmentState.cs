@@ -31,7 +31,7 @@ public interface IEnvironmentState
 {
     void UpdateState();
 
-    void OnTriggerClicked();
+    //void OnTriggerClicked();
     //Passes System or Floating Button to acivate state
 
     void ToMainState();
