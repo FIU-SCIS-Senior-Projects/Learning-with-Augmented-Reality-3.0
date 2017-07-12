@@ -76,7 +76,8 @@ public class MainState : IEnvironmentState
 		#if UNITY_IOS && !UNITY_EDITOR
 		if(Input.touches.Length > 0)
 		{
-			OnTriggerClicked(Camera.MainState.ScreenPointToRay(Input.touches[0].position));
+			Debug.Log("touch");
+			OnTriggerClicked(Camera.main.ScreenPointToRay(Input.touches[0].position));
 		}
 		#endif
 
@@ -118,7 +119,7 @@ public class MainState : IEnvironmentState
             if (hit.collider != null)
             {
                 collidertag = hit.collider.tag;
-                //Debug.Log(collidertag);
+                Debug.Log(collidertag);
 
                 if (collidertag.Equals("RValue") || collidertag.Equals("GeneratorVideo") || collidertag.Equals("WMechanicalVideo") || collidertag.Equals("MechanicalVideo")
                     || collidertag.Equals("EE") || collidertag.Equals("ShadingCo"))

@@ -254,6 +254,7 @@ public class StatePatternEnvironment : MonoBehaviour
                 col.enabled = false;
             }
         }
+		Debug.Log ("components disabled");
     }
 
     public void EnableComponents(List<Transform> _enableComponents)

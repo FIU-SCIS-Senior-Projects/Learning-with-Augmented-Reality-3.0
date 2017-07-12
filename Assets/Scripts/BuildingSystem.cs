@@ -168,6 +168,7 @@ public class BuildingSystem : MonoBehaviour
             }
             //collider.convex = true;
         }
+		//Debug.Log (_name + ": colliders added");
     }
     
    //Add rigidBodies
