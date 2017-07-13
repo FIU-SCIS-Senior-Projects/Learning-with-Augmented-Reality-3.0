@@ -73,8 +73,11 @@ public class Autowalk : MonoBehaviour
 			}
 			#endif
 
-			#if !UNITY_EDITOR
-			isWalking = true;
+			#if !UNITY_EDITOR && UNITY_IOS
+			if(Input.touches.Length > 1 && Input.touches.Length != 1)
+			{
+				isWalking = true;
+			}
 			#endif
 		}
 		else if (walkWhenTriggered && !walkWhenLookDown && isWalking) // && GvrViewer.Instance.Triggered)
@@ -87,7 +90,10 @@ public class Autowalk : MonoBehaviour
 			#endif
 
 			#if !UNITY_EDITOR
+			if(Input.touches.Length > 1 && Input.touches.Length != 1)
+			{
 			isWalking = false;
+			}
 			#endif
 		}
 

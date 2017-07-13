@@ -29,11 +29,11 @@ public class GvrLaserPointer : MonoBehaviour {
   public Color laserColor = new Color(1.0f, 1.0f, 1.0f, 0.25f);
 
   /// Maximum distance of the pointer (meters).
-  [Range(0.0f, 10.0f)]
+  [Range(0.0f, 1000.0f)]
   public float maxLaserDistance = 0.75f;
 
   /// Maximum distance of the reticle (meters).
-  [Range(0.4f, 10.0f)]
+  [Range(0.4f, 1000.0f)]
   public float maxReticleDistance = 2.5f;
 
   public GameObject reticle;
