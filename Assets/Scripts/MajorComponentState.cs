@@ -69,9 +69,17 @@ public class MajorComponentState : IEnvironmentState
 		#endif
 
 		#if UNITY_IOS && !UNITY_EDITOR
+		/*
 		if(Input.touches.Length > 0)
 		{
 		OnTriggerClicked();
+		}
+		*/
+		if(Input.touches.Length > 0)
+		{
+		Debug.Log("touch");
+		Ray myRay = envi.myTouch.UpdateTouch();
+		OnTriggerClicked(myRay);
 		}
 		#endif
 

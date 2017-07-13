@@ -68,16 +68,21 @@ public class MainState : IEnvironmentState
 		#if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0))
         {
+
 			Ray myRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 			OnTriggerClicked(myRay);
         }
 		#endif
 
 		#if UNITY_IOS && !UNITY_EDITOR
+
 		if(Input.touches.Length > 0)
 		{
 			Debug.Log("touch");
-			OnTriggerClicked(Camera.main.ScreenPointToRay(Input.touches[0].position));
+			Ray myRay = envi.myTouch.UpdateTouch();
+			//Fix this to center!!!!
+			//OnTriggerClicked(Camera.main.ScreenPointToRay(Input.touches[0].position));
+			OnTriggerClicked(myRay);
 		}
 		#endif
 

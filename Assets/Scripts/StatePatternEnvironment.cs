@@ -37,6 +37,9 @@ public class StatePatternEnvironment : MonoBehaviour
     [HideInInspector]
     public MajorAnnotate majorAnnotate;
 
+	[HideInInspector]
+	public TouchIOS myTouch;
+
 
     ///Static Set at Start Variables///
 
@@ -120,6 +123,8 @@ public class StatePatternEnvironment : MonoBehaviour
         //cameraVRController = GameObject.Find("FPSController (Mobile)");
         cameraDesktop = GameObject.Find("FirstPersonCharacter");
         cameraVR = GameObject.Find("Main Camera");
+
+		myTouch = new TouchIOS ();
     }
 
 
