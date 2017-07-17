@@ -64,7 +64,8 @@ public class MajorComponentState : IEnvironmentState
 		#if UNITY_EDITOR
 		if (Input.GetMouseButtonDown(0))
 		{
-			OnTriggerClicked();
+			Ray myRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+			OnTriggerClicked(myRay);
 		}
 		#endif
 
@@ -79,6 +80,8 @@ public class MajorComponentState : IEnvironmentState
 		{
 		Debug.Log("touch");
 		Ray myRay = envi.myTouch.UpdateTouch();
+		//Fix this to center!!!!
+		//OnTriggerClicked(Camera.main.ScreenPointToRay(Input.touches[0].position));
 		OnTriggerClicked(myRay);
 		}
 		#endif
@@ -93,13 +96,14 @@ public class MajorComponentState : IEnvironmentState
 
 	//Layers: 8: Components, 9: Button, 10: ExpandIcon, 11: Exterior
     //Fix This
-    public void OnTriggerClicked()
+	public void OnTriggerClicked(Ray myRay)
     {
         string collidertag = null;
         //Debug.Log(collidertag);
         List<string> tempEventNames = new List<string>();
         List<GameObject> systemsHit = new List<GameObject>();
-		RaycastHit hit = new RaycastHit();Ray myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
+		RaycastHit hit = new RaycastHit();
+		//myRay = new Ray (Camera.main.transform.position, Camera.main.transform.forward);
 
 		//Debug.DrawLine (Camera.main.transform.position, Camera.main.transform.position + new Vector3 (0, 0, 100f), Color.cyan);
 

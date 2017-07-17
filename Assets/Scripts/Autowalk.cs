@@ -31,7 +31,7 @@ public class Autowalk : MonoBehaviour
 	private const int RIGHT_ANGLE = 90;
 
 	// This variable determinates if the player will move or not 
-	private bool isWalking = false;
+	public bool isWalking = false;
 
 	Transform mainCamera = null;
 
@@ -39,19 +39,19 @@ public class Autowalk : MonoBehaviour
 	[Tooltip("With this speed the player will move.")]
 	public float speed;
 
-	[Tooltip("Activate this checkbox if the player shall move when the Cardboard trigger is pulled.")]
-	public bool walkWhenTriggered;
+	//[Tooltip("Activate this checkbox if the player shall move when the Cardboard trigger is pulled.")]
+	//public bool walkWhenTriggered;
 
-	[Tooltip("Activate this checkbox if the player shall move when he looks below the threshold.")]
-	public bool walkWhenLookDown;
+	//[Tooltip("Activate this checkbox if the player shall move when he looks below the threshold.")]
+	//public bool walkWhenLookDown;
 
-	[Tooltip("This has to be an angle from 0° to 90°")]
-	public double thresholdAngle;
+	//[Tooltip("This has to be an angle from 0° to 90°")]
+	//public double thresholdAngle;
 
-	[Tooltip("Activate this Checkbox if you want to freeze the y-coordiante for the player. " +
-		"For example in the case of you have no collider attached to your CardboardMain-GameObject" +
-		"and you want to stay in a fixed level.")]
-	public bool freezeYPosition;
+	//[Tooltip("Activate this Checkbox if you want to freeze the y-coordiante for the player. " +
+	//	"For example in the case of you have no collider attached to your CardboardMain-GameObject" +
+	//	"and you want to stay in a fixed level.")]
+	//public bool freezeYPosition;
 
 	[Tooltip("This is the fixed y-coordinate.")]
 	public float yOffset;
@@ -64,12 +64,13 @@ public class Autowalk : MonoBehaviour
 	void Update()
 	{
 		// Walk when the Cardboard Trigger is used 
-		if (walkWhenTriggered && !walkWhenLookDown && !isWalking) //&& GvrViewer.Instance.Triggered)
+		//if (walkWhenTriggered && !walkWhenLookDown && !isWalking) //&& GvrViewer.Instance.Triggered)
+		if(!isWalking)
 		{
 			#if UNITY_EDITOR
-			if(Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+			if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
 			{
-				isWalking = true;
+				toggleWalk();
 			}
 			#endif
 
@@ -80,12 +81,14 @@ public class Autowalk : MonoBehaviour
 			}
 			#endif
 		}
-		else if (walkWhenTriggered && !walkWhenLookDown && isWalking) // && GvrViewer.Instance.Triggered)
+		//else if (walkWhenTriggered && !walkWhenLookDown && isWalking) // && GvrViewer.Instance.Triggered)
+		else if (isWalking)
 		{
 			#if UNITY_EDITOR
-			if(Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+			if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
 			{
-				isWalking = false;
+				toggleWalk();
+				//isWalking = false;
 			}
 			#endif
 
@@ -96,7 +99,7 @@ public class Autowalk : MonoBehaviour
 			}
 			#endif
 		}
-
+		/*
 		// Walk when player looks below the threshold angle 
 		if (walkWhenLookDown && !walkWhenTriggered && !isWalking &&
 			mainCamera.transform.eulerAngles.x >= thresholdAngle &&
@@ -114,19 +117,19 @@ public class Autowalk : MonoBehaviour
 		// Walk when the Cardboard trigger is used and the player looks down below the threshold angle
 		if (walkWhenLookDown && walkWhenTriggered && !isWalking &&
 			mainCamera.transform.eulerAngles.x >= thresholdAngle &&
-			/*GvrViewer.Instance.Triggered &&*/
+			//GvrViewer.Instance.Triggered &&
 			mainCamera.transform.eulerAngles.x <= RIGHT_ANGLE)
 		{
 			isWalking = true;
 		}
 		else if (walkWhenLookDown && walkWhenTriggered && isWalking &&
 			mainCamera.transform.eulerAngles.x >= thresholdAngle &&
-			(/*GvrViewer.Instance.Triggered ||*/
+			//GvrViewer.Instance.Triggered ||
 				mainCamera.transform.eulerAngles.x >= RIGHT_ANGLE))
 		{
 			isWalking = false;
 		}
-
+		*/
 		if (isWalking)
 		{
 			Vector3 direction = new Vector3(mainCamera.transform.forward.x, 0, mainCamera.transform.forward.z).normalized * speed * Time.deltaTime;
@@ -134,9 +137,31 @@ public class Autowalk : MonoBehaviour
 			transform.Translate(rotation * direction);
 		}
 
+		/*
 		if (freezeYPosition)
 		{
 			transform.position = new Vector3(transform.position.x, yOffset, transform.position.z);
+		}
+		*/
+	}
+
+//	public void walkOn()
+//	{
+//		isWalking = true;
+//	}
+//
+//	public void walkOff()
+//	{
+//		isWalking = false;
+//	}
+
+	public void toggleWalk()
+	{
+		if (isWalking) {
+			isWalking = false;	
+		} else {
+			isWalking = true;
+
 		}
 	}
 }

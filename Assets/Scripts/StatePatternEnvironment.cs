@@ -148,6 +148,7 @@ public class StatePatternEnvironment : MonoBehaviour
 
 		//Camera variables
 		cameraHead = GameObject.Find("Player");
+		//cameraHead = GameObject.Find("Main Camera");
         isMoving = false;
 
         //Fade Variables//
