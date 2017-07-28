@@ -63,7 +63,7 @@ public class ImageSequenceOut : MonoBehaviour
             if (frameCount > 0)
             {
                 var name = "Capture/frame" + frameCount.ToString("0000") + ".png";
-                Application.CaptureScreenshot(name, _superSampling);
+                ScreenCapture.CaptureScreenshot(name, _superSampling);
             }
             frameCount++;
         }
